@@ -1,7 +1,11 @@
-import React from 'react'
+import React from 'react';
 
-import "./Interests.css"
-import BodyTitle from "../body-title/BodyTitle";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { library } from "@fortawesome/fontawesome-svg-core";
+import { faHourglass } from '@fortawesome/free-solid-svg-icons';
+
+import "./Interests.css";
+import ContentTitle from "../content-title/ContentTitle";
 
 
 const INTERESTS = [
@@ -13,12 +17,14 @@ const INTERESTS = [
 ]
 
 const Interests = () => {
+    library.add(faHourglass)
+
     return (
         <div>
-            <BodyTitle text="INTERESTS" />
-            
+            <ContentTitle icon={<FontAwesomeIcon icon={"address-card"} />} text="INTERESTS" />
+
             {INTERESTS.map((i) => (
-                <div className={"skill-text"}>
+                <div className={"skill-text"} key={i}>
                     {i}
                 </div>
             ))}

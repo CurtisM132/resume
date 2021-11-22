@@ -1,14 +1,20 @@
-import React, { Fragment } from 'react'
+import React, { Fragment } from 'react';
+
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { library } from "@fortawesome/fontawesome-svg-core";
+import { faBriefcase } from '@fortawesome/free-solid-svg-icons';
 
 import "./WorkHistory.css"
-import BodyTitle from "../body-title/BodyTitle";
+import ContentTitle from "../content-title/ContentTitle";
 import JobEntry from "./job-entry/JobEntry";
 
 
 const WorkHistory = () => {
+    library.add(faBriefcase)
+
     return (
         <Fragment>
-            <BodyTitle text="WORK HISTORY" />
+            <ContentTitle icon={<FontAwesomeIcon icon={"briefcase"} />} text="WORK HISTORY" />
 
             <JobEntry
                 jobTitle="Software Engineer"

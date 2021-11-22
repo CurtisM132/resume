@@ -1,14 +1,20 @@
-import React, { Fragment } from 'react'
+import React, { Fragment } from 'react';
 
-import "./EducationHistory.css"
-import BodyTitle from "../body-title/BodyTitle";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { library } from "@fortawesome/fontawesome-svg-core";
+import { faUserGraduate } from '@fortawesome/free-solid-svg-icons';
+
+import "./EducationHistory.css";
+import ContentTitle from "../content-title/ContentTitle";
 import EducationEntry from "./education-entry/EducationEntry";
 
 
 const EducationHistory = () => {
+    library.add(faUserGraduate)
+
     return (
         <Fragment>
-            <BodyTitle text="EDUCATION" />
+            <ContentTitle icon={<FontAwesomeIcon icon={"user-graduate"} />} text="EDUCATION" />
 
             <EducationEntry
                 courseTitle="BSc Digital andTechnology Solutions (Computer Science)"

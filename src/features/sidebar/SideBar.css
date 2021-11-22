@@ -3,9 +3,9 @@
     flex-direction: column;
     justify-content: space-between;
 
-    width: 220px;
+    width: fit-content;
 
-    padding: 16px 16px;
+    padding: 20px 16px;
 
     background-color: #BFBFBF;
 }

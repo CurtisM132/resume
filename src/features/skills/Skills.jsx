@@ -1,7 +1,11 @@
 import React from 'react';
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { library } from "@fortawesome/fontawesome-svg-core";
+import { faChartLine } from '@fortawesome/free-solid-svg-icons';
+
 import "./Skills.css";
-import BodyTitle from "../body-title/BodyTitle";
+import ContentTitle from "../content-title/ContentTitle";
 
 
 const PROGRAMMING_LANGUAGES = [
@@ -33,9 +37,11 @@ const CI_CD = [
 ];
 
 const Skills = () => {
+    library.add(faChartLine)
+
     return (
         <div>
-            <BodyTitle text="SKILLS" />
+            <ContentTitle icon={<FontAwesomeIcon icon={"chart-line"} />} text="SKILLS" />
 
             <div className={"skill-container"}>
                 <div className={"skill-subtitle"}>
@@ -43,7 +49,7 @@ const Skills = () => {
                 </div>
 
                 {PROGRAMMING_LANGUAGES.map((i) => (
-                    <div className={"skill-text"}>
+                    <div className={"skill-text"} key={i}>
                         {i}
                     </div>
                 ))}
@@ -55,7 +61,7 @@ const Skills = () => {
                 </div>
 
                 {FRAMEWORKS.map((i) => (
-                    <div className={"skill-text"}>
+                    <div className={"skill-text"} key={i}>
                         {i}
                     </div>
                 ))}
@@ -67,7 +73,7 @@ const Skills = () => {
                 </div>
 
                 {SOFTWARE_AND_TOOLS.map((i) => (
-                    <div className={"skill-text"}>
+                    <div className={"skill-text"} key={i}>
                         {i}
                     </div>
                 ))}
@@ -79,7 +85,7 @@ const Skills = () => {
                 </div>
 
                 {CI_CD.map((i) => (
-                    <div className={"skill-text"}>
+                    <div className={"skill-text"} key={i}>
                         {i}
                     </div>
                 ))}
