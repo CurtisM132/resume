@@ -17,14 +17,14 @@ const EducationEntry = ({ courseTitle, date, institutionDetails, children }) => 
     return (
         <Fragment>
             <div className={"container"}>
-                <div className={"detailsContainer"}>
-                    <div className={"courseTitle"}>{courseTitle}</div>
-                    <div className={"institutionDetails"}>{institutionDetails}</div>
+                <div>
+                    <div className={"course-title"}>{courseTitle}</div>
+                    <div className={"institution-details"}>{institutionDetails}</div>
                 </div>
                 <div className={"date"}>{date}</div>
             </div>
 
-            <div className={"educationDetails"}>
+            <div className={"education-details"}>
                 {children}
             </div>
         </Fragment>

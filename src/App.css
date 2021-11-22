@@ -1,22 +1,18 @@
 .app {
-  width: 21cm;
-  height: 29.7cm; 
+	width: 816px;
+  height: 1056px;
 
-  display: block;
-  margin: 0 auto;
-}
-
-.main-body {
-  background-color: white !important;
-  height: 100%;
-}
-
-.page {
+  display: flex;
   flex-direction: column;
+
   background-color: #E4E4E4;
+
+  overflow-y: hidden;
 }
 
-.flexRow {
+.body-container {
   display: flex;
   flex-direction: row;
+
+  height: 100%;
 }

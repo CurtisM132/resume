@@ -1,10 +1,13 @@
-.textContainer {
-    margin-bottom: 12px;
-}
-
-.flexRow {
+.row-container {
     display: flex;
     flex-direction: row;
-    font-size: 8px;
-    margin-bottom: 2px;
+    align-items: center;
+    
+    margin-bottom: 5px;
+
+    font-size: 0.8rem;
+}
+
+svg {
+    margin-right: 12px;
 }

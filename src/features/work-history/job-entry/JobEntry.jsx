@@ -17,9 +17,9 @@ const JobEntry = ({ jobTitle, date, employerDetails, children }) => {
     return (
         <Fragment>
             <div className={"container"}>
-                <div className={"detailsContainer"}>
-                    <div className={"jobTitle"}>{jobTitle}</div>
-                    <div className={"employerDetails"}>{employerDetails}</div>
+                <div>
+                    <div className={"job-title"}>{jobTitle}</div>
+                    <div className={"employer-details"}>{employerDetails}</div>
                 </div>
                 <div className={"date"}>{date}</div>
             </div>

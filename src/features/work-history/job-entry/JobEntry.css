@@ -5,27 +5,24 @@
     justify-content: space-between
 }
 
-.detailsContainer {
-    display: flex;
-    flex-direction: column;
-}
-
-.courseTitle {
-    font-size: 10px;
+.job-title {
+    font-size: 0.9rem;
     font-weight: bold;
 }
 
-.institutionDetails {
-    font-size: 8px;
+.employer-details {
+    font-size: 0.7rem;
     font-weight: light;
 }
 
 .date {
     margin-top: 4px;
-    font-size: 8px;
+
+    font-size: 0.7rem;
+    font-style: italic;
     font-weight: light;
 }
 
-.educationDetails {
-    font-size: 10px;
+.project-details {
+    font-size: 0.8rem;
 }

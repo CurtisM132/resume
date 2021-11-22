@@ -8,9 +8,9 @@ import './App.css';
 
 
 const App = () => (
-  <div className={"page"}>
+  <div className={"app"}>
     <Header />
-    <div className={"flexRow"}>
+    <div className={"body-container"}>
       <Sidebar />
       <MainContent />
     </div>

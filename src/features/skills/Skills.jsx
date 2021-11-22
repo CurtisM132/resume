@@ -1,80 +1,90 @@
-import React, { Fragment } from 'react'
+import React from 'react';
 
-import "./Skills.css"
+import "./Skills.css";
 import BodyTitle from "../body-title/BodyTitle";
 
 
+const PROGRAMMING_LANGUAGES = [
+    "Go (Golang)",
+    "Javascript",
+    "HTML / CSS",
+    "Typescript",
+    "Python",
+    "C",
+];
+
+const FRAMEWORKS = [
+    "React",
+    "Angular",
+];
+
+const SOFTWARE_AND_TOOLS = [
+    "Git",
+    "Docker",
+    "Jira",
+    "BitBucket",
+    "Microsoft Office",
+];
+
+const CI_CD = [
+    "Jenkins",
+    "Nexus",
+    "Maven",
+];
+
 const Skills = () => {
     return (
-        <Fragment>
+        <div>
             <BodyTitle text="SKILLS" />
 
-            <div className={"textContainer"}>
-                <div className={"subtitle"}>
+            <div className={"skill-container"}>
+                <div className={"skill-subtitle"}>
                     Languages
                 </div>
-                <div className={"skillText"}>
-                    Go (Golang)
-                </div>
-                <div className={"skillText"}>
-                    Javascript
-                </div>
-                <div className={"skillText"}>
-                    HTML / CSS
-                </div>
-                <div className={"skillText"}>
-                    Typescript
-                </div>
-                <div className={"skillText"}>
-                    Python
-                </div>
-                <div className={"skillText"}>
-                    C
-                </div>
+
+                {PROGRAMMING_LANGUAGES.map((i) => (
+                    <div className={"skill-text"}>
+                        {i}
+                    </div>
+                ))}
             </div>
 
-            <div className={"textContainer"}>
-                <div className={"subtitle"}>
+            <div className={"skill-container"}>
+                <div className={"skill-subtitle"}>
                     Frameworks
                 </div>
-                <div className={"skillText"}>
-                    React
-                </div>
-                <div className={"skillText"}>
-                    Angular
-                </div>
+
+                {FRAMEWORKS.map((i) => (
+                    <div className={"skill-text"}>
+                        {i}
+                    </div>
+                ))}
             </div>
 
-            <div className={"textContainer"}>
-                <div className={"subtitle"}>
+            <div className={"skill-container"}>
+                <div className={"skill-subtitle"}>
                     Software &#38; Tools
                 </div>
-                <div className={"skillText"}>
-                    Git
-                </div>
-                <div className={"skillText"}>
-                    Docker
-                </div>
-                <div className={"skillText"}>
-                    Office
-                </div>
+
+                {SOFTWARE_AND_TOOLS.map((i) => (
+                    <div className={"skill-text"}>
+                        {i}
+                    </div>
+                ))}
             </div>
 
-            <div className={"textContainer"}>
-                <div className={"subtitle"}>
+            <div className={"skill-container"}>
+                <div className={"skill-subtitle"}>
                     CI / CD
                 </div>
-                <div className={"skillText"}>
-                    Jenkins
-                </div>
-                <div className={"skillText"}>
-                    Nexus
-                </div>
-                <div className={"skillText"}>
-                    Maven
-                </div>
+
+                {CI_CD.map((i) => (
+                    <div className={"skill-text"}>
+                        {i}
+                    </div>
+                ))}
             </div>
-        </Fragment>
+        </div>
     )
 }
 
