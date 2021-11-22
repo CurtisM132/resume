@@ -1,0 +1,17 @@
+.subtitle {
+    color: #DC3522;
+    font-size: 12px;
+    font-style: italic;
+    margin-bottom: 1px;
+}
+
+.textContainer {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.skillText {
+    font-size: 10px;
+    margin-bottom: 2px;
+}

@@ -1,0 +1,10 @@
+.textContainer {
+    margin-bottom: 12px;
+}
+
+.flexRow {
+    display: flex;
+    flex-direction: row;
+    font-size: 8px;
+    margin-bottom: 2px;
+}

@@ -1,0 +1,31 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    justify-content: space-between
+}
+
+.detailsContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.courseTitle {
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.institutionDetails {
+    font-size: 8px;
+    font-weight: light;
+}
+
+.date {
+    margin-top: 4px;
+    font-size: 8px;
+    font-weight: light;
+}
+
+.educationDetails {
+    font-size: 10px;
+}

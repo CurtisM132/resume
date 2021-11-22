@@ -1,42 +1,32 @@
 import React, { Fragment } from 'react';
 import PropTypes from 'prop-types';
 
-import { Text, View, StyleSheet } from '@react-pdf/renderer';
-
-import BodyTitle from "../body-title/BodyTitle";
-
-const styles = StyleSheet.create({
-    textContainer: {
-        display: "flex",
-        flexDirection: "column",
-        marginBottom: "15px",
-    },
-    skillText: {
-        fontSize: "8px",
-    },
-});
+import "./JobEntry.css"
 
 const propTypes = {
     jobTitle: PropTypes.string.isRequired,
     date: PropTypes.string.isRequired,
     employerDetails: PropTypes.string.isRequired,
-    children: PropTypes.elementType
+    children: PropTypes.oneOfType([
+        PropTypes.object,
+        PropTypes.array,
+    ]),
 }
 
 const JobEntry = ({ jobTitle, date, employerDetails, children }) => {
     return (
         <Fragment>
-            <View>
-                <View>
-                    <Text>{jobTitle}</Text>
-                    <Text>{date}</Text>
-                </View>
-                <Text>{employerDetails}</Text>
-            </View>
+            <div className={"container"}>
+                <div className={"detailsContainer"}>
+                    <div className={"jobTitle"}>{jobTitle}</div>
+                    <div className={"employerDetails"}>{employerDetails}</div>
+                </div>
+                <div className={"date"}>{date}</div>
+            </div>
 
-            <View>
+            <div className={"projectDetails"}>
                 {children}
-            </View>
+            </div>
         </Fragment>
     )
 }

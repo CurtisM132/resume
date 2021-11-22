@@ -1,96 +1,79 @@
 import React, { Fragment } from 'react'
 
-import { Text, View, StyleSheet } from '@react-pdf/renderer';
-
+import "./Skills.css"
 import BodyTitle from "../body-title/BodyTitle";
 
-const styles = StyleSheet.create({
-    subtitle: {
-        color: "#DC3522",
-        fontSize: "12px",
-        fontStyle: "italic",
-    },
-    textContainer: {
-        display: "flex",
-        flexDirection: "column",
-        marginBottom: "15px",
-    },
-    skillText: {
-        fontSize: "8px",
-        marginBottom: "2px",
-    },
-});
 
 const Skills = () => {
     return (
         <Fragment>
             <BodyTitle text="SKILLS" />
 
-            <View style={styles.textContainer}>
-                <View style={styles.subtitle}>
-                    <Text>Languages</Text>
-                </View>
-                <View style={styles.skillText}>
-                    <Text>Go (Golang)</Text>
-                </View>
-                <View style={styles.skillText}>
-                    <Text>Javascript</Text>
-                </View>
-                <View style={styles.skillText}>
-                    <Text>HTML / CSS</Text>
-                </View>
-                <View style={styles.skillText}>
-                    <Text>Typescript</Text>
-                </View>
-                <View style={styles.skillText}>
-                    <Text>Python</Text>
-                </View>
-                <View style={styles.skillText}>
-                    <Text>C</Text>
-                </View>
-            </View>
+            <div className={"textContainer"}>
+                <div className={"subtitle"}>
+                    Languages
+                </div>
+                <div className={"skillText"}>
+                    Go (Golang)
+                </div>
+                <div className={"skillText"}>
+                    Javascript
+                </div>
+                <div className={"skillText"}>
+                    HTML / CSS
+                </div>
+                <div className={"skillText"}>
+                    Typescript
+                </div>
+                <div className={"skillText"}>
+                    Python
+                </div>
+                <div className={"skillText"}>
+                    C
+                </div>
+            </div>
 
-            <View style={styles.textContainer}>
-                <View style={styles.subtitle}>
-                    <Text>Frameworks</Text>
-                </View>
-                <View style={styles.skillText}>
-                    <Text>React</Text>
-                </View>
-                <View style={styles.skillText}>
-                    <Text>Angular</Text>
-                </View>
-            </View>
+            <div className={"textContainer"}>
+                <div className={"subtitle"}>
+                    Frameworks
+                </div>
+                <div className={"skillText"}>
+                    React
+                </div>
+                <div className={"skillText"}>
+                    Angular
+                </div>
+            </div>
 
-            <View style={styles.textContainer}>
-                <View style={styles.subtitle}>
-                    <Text>Software &#38; Tools</Text>
-                </View>
-                <View style={styles.skillText}>
-                    <Text>Git</Text>
-                </View>
-                <View style={styles.skillText}>
-                    <Text>Docker</Text>
-                </View>
-                <View style={styles.skillText}>
-                    <Text>Office</Text>
-                </View>
-            </View>
+            <div className={"textContainer"}>
+                <div className={"subtitle"}>
+                    Software &#38; Tools
+                </div>
+                <div className={"skillText"}>
+                    Git
+                </div>
+                <div className={"skillText"}>
+                    Docker
+                </div>
+                <div className={"skillText"}>
+                    Office
+                </div>
+            </div>
 
-            <View style={styles.textContainer}>
-                <View style={styles.subtitle}>
-                    <Text>CI / CD</Text>
-                </View>
-                <View style={styles.skillText}>
-                    <Text>Jenkins</Text>
-                </View>
-                <View style={styles.skillText}>
-                    <Text>Nexus</Text>
-                </View>
-                <View style={styles.skillText}>
-                    <Text>Maven</Text>
-                </View>
-            </View>
+            <div className={"textContainer"}>
+                <div className={"subtitle"}>
+                    CI / CD
+                </div>
+                <div className={"skillText"}>
+                    Jenkins
+                </div>
+                <div className={"skillText"}>
+                    Nexus
+                </div>
+                <div className={"skillText"}>
+                    Maven
+                </div>
+            </div>
         </Fragment>
     )
 }

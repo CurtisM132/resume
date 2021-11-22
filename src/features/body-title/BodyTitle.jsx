@@ -1,16 +1,7 @@
 import React, { Fragment } from 'react';
 import PropTypes from 'prop-types';
 
-import { Text, View, StyleSheet } from '@react-pdf/renderer';
-
-const styles = StyleSheet.create({
-    title: {
-        color: "black",
-        fontSize: "16px",
-        borderBottom: "1px solid black",
-        marginBottom: "5px",
-    },
-});
+import "./BodyTitle.css"
 
 const propTypes = {
     text: PropTypes.string.isRequired,
@@ -19,9 +10,9 @@ const propTypes = {
 const BodyTitle = ({ text }) => {
     return (
         <Fragment>
-            <View style={styles.title}>
-                <Text>{text}</Text>
-            </View>
+            <div className={"title"}>
+                {text}
+            </div>
         </Fragment>
     )
 }

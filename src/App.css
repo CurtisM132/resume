@@ -1,18 +1,22 @@
-body {
-  background: rgb(204,204,204); 
-}
-
 .app {
   width: 21cm;
   height: 29.7cm; 
 
   display: block;
   margin: 0 auto;
-  margin-bottom: 0.5cm;
-  box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
 }
 
 .main-body {
   background-color: white !important;
   height: 100%;
+}
+
+.page {
+  flex-direction: column;
+  background-color: #E4E4E4;
+}
+
+.flexRow {
+  display: flex;
+  flex-direction: row;
 }
