@@ -29,6 +29,12 @@ const SOFTWARE_AND_TOOLS = [
   'Microsoft Office',
 ];
 
+const OPERATING_SYSTEMS = [
+  'Windows',
+  'Linux',
+];
+
+
 const CI_CD = [
   'Jenkins',
   'Nexus',
@@ -72,6 +78,18 @@ const Skills = () => {
         </div>
 
         {SOFTWARE_AND_TOOLS.map((i) => (
+          <div className="skill-text" key={i}>
+            {i}
+          </div>
+        ))}
+      </div>
+
+      <div className="skill-container">
+        <div className="skill-subtitle">
+          Operating Systems
+        </div>
+
+        {OPERATING_SYSTEMS.map((i) => (
           <div className="skill-text" key={i}>
             {i}
           </div>

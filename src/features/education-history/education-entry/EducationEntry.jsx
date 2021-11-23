@@ -23,7 +23,7 @@ const EducationEntry = function ({
           <div className="course-title">{courseTitle}</div>
           <div className="institution-details">{institutionDetails}</div>
         </div>
-        <div className="date">{date}</div>
+        <div className="education-date">{date}</div>
       </div>
 
       <div className="education-details">

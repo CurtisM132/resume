@@ -23,7 +23,7 @@ const JobEntry = function ({
           <div className="job-title">{jobTitle}</div>
           <div className="employer-details">{employerDetails}</div>
         </div>
-        <div className="date">{date}</div>
+        <div className="job-date">{date}</div>
       </div>
 
       <div className="projectDetails">

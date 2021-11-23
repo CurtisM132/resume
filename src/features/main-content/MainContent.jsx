@@ -6,7 +6,7 @@ import EducationHistory from '../education-history/EducationHistory';
 
 const MainContent = () => {
   return (
-    <div className="mainContent">
+    <div className="main-content">
       <div style={{ marginBottom: '20px' }}>
         <WorkHistory />
       </div>
