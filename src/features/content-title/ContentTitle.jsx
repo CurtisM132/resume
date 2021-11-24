@@ -8,12 +8,18 @@ const propTypes = {
   text: PropTypes.string.isRequired,
 };
 
+const defaultProps = {
+  icon: undefined
+}
+
 const ContentTitle = function ({ icon, text }) {
   return (
     <div className="content-title-container">
-      <div className="content-title-icon">
-        {icon}
-      </div>
+      { icon &&
+        <div className="content-title-icon">
+          {icon}
+        </div>
+      }
       <div className="content-title-text">
         {text}
       </div>
@@ -22,5 +28,6 @@ const ContentTitle = function ({ icon, text }) {
 };
 
 ContentTitle.propTypes = propTypes;
+ContentTitle.defaultProps = defaultProps;
 
 export default ContentTitle;

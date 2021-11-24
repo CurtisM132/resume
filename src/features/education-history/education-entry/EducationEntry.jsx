@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import PropTypes from 'prop-types';
 
 import './EducationEntry.css';
@@ -13,6 +13,10 @@ const propTypes = {
   ]),
 };
 
+const defaultProps = {
+  children: undefined
+}
+
 const EducationEntry = function ({
   courseTitle, date, institutionDetails, children,
 }) {
@@ -26,13 +30,16 @@ const EducationEntry = function ({
         <div className="education-date">{date}</div>
       </div>
 
-      <div className="education-details">
-        {children}
-      </div>
+      { children &&
+        <div className="education-details">
+          {children}
+        </div>
+      }
     </div>
   );
 };
 
 EducationEntry.propTypes = propTypes;
+EducationEntry.defaultProps = defaultProps;
 
 export default EducationEntry;

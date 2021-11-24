@@ -23,13 +23,13 @@ const WorkHistory = () => {
         <hr />
 
         <div className="project-details">
-          <div style={{ display: "flex", flexDirection: "row", justifyContent: "space-between" }}>
+          <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-between' }}>
             <div>
               <b>Cybels - Trusted Communities (R&#38;D)</b>
               <br />
               <i>https://www.thalesgroup.com/en/cybels-protect-0</i>
             </div>
-            <div className={"project-date"}>
+            <div className="project-date">
               03/2020 - Present
             </div>
           </div>
@@ -39,18 +39,21 @@ const WorkHistory = () => {
               <li>
                 Currently working on Go microservice components to develop critical areas
                 of the system (i.e., digital certificate issuing, PKI management, RESTful APIs)
-            </li>
+              </li>
               <li>
-                Utilising Go Test and Ginko to create unit and integration tests for every new feature
-            </li>
+                Utilising Go Test and Ginko to create unit and integration tests for every new
+                feature
+              </li>
               <li>
-                Hired, originally, as the primary engineer to create multiple React frontend SPAs. All SPAs featured a RESTful JSON API
-                (utilising HTTP and WS), a Material Design UI, and Redux state management
-            </li>
+                Hired, originally, as the primary engineer to create multiple React frontend 
+                SPAs. All SPAs featured a RESTful JSON API (utilising HTTP and WS), a Material 
+                Design UI, and Redux state management
+              </li>
               <li>
-                Recently liaised with a sibling team to design and create a service that handles NFC reader/device communication
-                and performs custom functionality based on a customer's specific requirements and security clearance level
-            </li>
+                Recently liaised with a sibling team to design and create a service that 
+                handles NFC reader/device communication and performs custom functionality based 
+                on a customer's specific requirements and security clearance level
+              </li>
             </ul>
           </p>
         </div>
@@ -58,17 +61,19 @@ const WorkHistory = () => {
         <hr />
 
         <div className="project-details">
-          <div style={{ display: "flex", flexDirection: "row", justifyContent: "space-between" }}>
+          <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-between' }}>
             <div>
               <b>GMPS MML</b>
             </div>
-            <div className={"project-date"}>
+            <div className="project-date">
               06/2020 - 03/2021
             </div>
           </div>
 
           <div className="project-desc">
-            A middle-man DLL written in C that acts as a communication layer between a 3rd party simulation application and Thales proprietary systems for use on a Chinook helicopter.
+            A middle-man DLL written in C that acts as a communication layer between a 3rd
+            party simulation application and Thales proprietary systems for use on a Chinook
+            helicopter.
           </div>
 
           <ul>
@@ -76,11 +81,12 @@ const WorkHistory = () => {
               Primary Engineer developing the solution
             </li>
             <li>
-              Strong focus on aggressive unit and integration testing to meet DO-178D certification
+              Strong focus on aggressive unit and integration testing to meet DO-178D
+              certification
             </li>
             <li>
-              Increased my responsibility around the planning and release of the solution (i.e., SRS creation,
-              task prioritisation, software and process documentation)
+              Increased my responsibility around the planning and release of the solution
+              (i.e., SRS creation, task prioritisation, software and process documentation)
             </li>
           </ul>
         </div>
@@ -88,13 +94,13 @@ const WorkHistory = () => {
         <hr />
 
         <div className="project-details">
-          <div style={{ display: "flex", flexDirection: "row", justifyContent: "space-between" }}>
+          <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-between' }}>
             <div>
               <b>FACT</b>
               <br />
 
             </div>
-            <div className={"project-date"}>
+            <div className="project-date">
               On a Consultant Basis
               <br />
               01/2020 - 06/2020
@@ -104,53 +110,55 @@ const WorkHistory = () => {
           </div>
 
           <div className="project-desc">
-            Map-centric Angular SPA connected, through a high-performance C++ backend, to a simulation
-            network with multiple military-grade flight simulators to display and manipulate military
-            training scenarios. A prime focus on usability/accessibility, performance, and a compact feature-rich design.
+            Map-centric Angular SPA connected, through a high-performance C++ backend, to 
+            a simulation network with multiple military-grade flight simulators to display
+            and manipulate military training scenarios. A prime focus on usability/accessibility,
+            performance, and a compact feature-rich design.
           </div>
 
           <ul>
             <li>
               Developed the frontend map-centric (OpenLayers) Angular SPA
-              </li>
+            </li>
             <li>
               Helped to develop the C++ backend server
-              </li>
+            </li>
             <li>
-              Designed and implemented a GIS map solution (using load-balanced Geoservers) to provide
-              raster and vector map imagery to the whole system
-              </li>
+              Designed and implemented a GIS map solution (using load-balanced Geoservers) to 
+              provide raster and vector map imagery to the whole system
+            </li>
             <li>
               Created multiple Python scripts to reduce process overhead and increase productivity
-              </li>
+            </li>
           </ul>
         </div>
 
         <hr />
 
         <div className="project-details">
-          <div style={{ display: "flex", flexDirection: "row", justifyContent: "space-between" }}>
+          <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-between' }}>
             <div>
               <b>Nuada</b>
               <br />
               <i>https://www.thalesgroup.com/en/nuada</i>
             </div>
-            <div className={"project-date"}>
+            <div className="project-date">
               02/2019 - 08/2019
             </div>
           </div>
 
           <div className="project-desc">
-            A solution that simplifies the planning, preparation, and delivery of activities that employ networked simulation environments and resources.
+            A solution that simplifies the planning, preparation, and delivery of activities
+            that employ networked simulation environments and resources.
           </div>
 
           <ul>
             <li>
               Developed the frontend Angular SPA
-              </li>
+            </li>
             <li>
               Helped to develop the Java Microservice backend
-              </li>
+            </li>
           </ul>
         </div>
       </JobEntry>

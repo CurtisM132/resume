@@ -34,7 +34,6 @@ const OPERATING_SYSTEMS = [
   'Linux',
 ];
 
-
 const CI_CD = [
   'Jenkins',
   'Nexus',
