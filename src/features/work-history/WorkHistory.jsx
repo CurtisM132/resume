@@ -52,7 +52,7 @@ const WorkHistory = () => {
               <li>
                 Recently liaised with a sibling team to design and create a service that 
                 handles NFC reader/device communication and performs custom functionality based 
-                on a customer's specific requirements and security clearance level
+                on a customer&apos;s specific requirements and security clearance level
               </li>
             </ul>
           </p>
