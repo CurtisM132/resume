@@ -17,8 +17,8 @@ const EducationEntry = function ({
   courseTitle, date, institutionDetails, children,
 }) {
   return (
-    <>
-      <div className="container">
+    <div className="education-entry-container">
+      <div className="education-details-container">
         <div>
           <div className="course-title">{courseTitle}</div>
           <div className="institution-details">{institutionDetails}</div>
@@ -29,7 +29,7 @@ const EducationEntry = function ({
       <div className="education-details">
         {children}
       </div>
-    </>
+    </div>
   );
 };
 

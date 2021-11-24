@@ -12,7 +12,7 @@ const EducationHistory = () => {
   library.add(faUserGraduate);
 
   return (
-    <>
+    <div>
       <ContentTitle icon={<FontAwesomeIcon icon="user-graduate" />} text="EDUCATION" />
 
       <EducationEntry
@@ -25,8 +25,6 @@ const EducationHistory = () => {
         </div>
       </EducationEntry>
 
-      <br />
-
       <EducationEntry
         courseTitle="BSc in Digital and Technology Solutions (Computer Science)"
         date="09/2017 - 08/2019"
@@ -34,10 +32,10 @@ const EducationHistory = () => {
       >
         <div className="education-details">
           I started my apprenticeship studying here but transferred to the University
-          of Warwick after two years of sub-par teaching.
+          of Warwick after two years.
         </div>
       </EducationEntry>
-    </>
+    </div>
   );
 };
 

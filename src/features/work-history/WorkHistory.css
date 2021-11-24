@@ -9,7 +9,7 @@
     font-style: italic;
     font-weight: lighter;
 
-    white-space: nowrap
+    white-space: nowrap;
 }
 
 .project-desc {
@@ -22,5 +22,15 @@ ul {
     margin-block-start: 0.5em;
     padding-inline-start: 20px;
 
-    font-size: 0.7rem;
+    list-style-type: disclosure-closed;
+
+    font-size: 0.75rem;
+}
+
+li {
+    margin: 2px;
+}
+
+i {
+    font-size: 0.6rem;
 }

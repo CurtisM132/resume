@@ -37,19 +37,19 @@ const WorkHistory = () => {
           <p>
             <ul>
               <li>
-                The primary engineer for the React frontend SPAs. Featured a RESTful JSON API
-                (utilising HTTP and WS), a Material Design UI, and Redux state management
+                Currently working on Go microservice components to develop critical areas
+                of the system (i.e., digital certificate issuing, PKI management, RESTful APIs)
             </li>
               <li>
-                Currently working entirely on the Go Microservice backend. Working on key areas
-                of the system (i.e., digital certificate issuing, PKI management, RESTful interfaces)
+                Utilising Go Test and Ginko to create unit and integration tests for every new feature
+            </li>
+              <li>
+                Hired, originally, as the primary engineer to create multiple React frontend SPAs. All SPAs featured a RESTful JSON API
+                (utilising HTTP and WS), a Material Design UI, and Redux state management
             </li>
               <li>
                 Recently liaised with a sibling team to design and create a service that handles NFC reader/device communication
                 and performs custom functionality based on a customer's specific requirements and security clearance level
-            </li>
-              <li>
-                Utilise Go Test and Ginko to create unit and integration tests for every new feature
             </li>
             </ul>
           </p>
@@ -68,16 +68,19 @@ const WorkHistory = () => {
           </div>
 
           <div className="project-desc">
-            A middle-man C DLL that acts as a communication layer between a 3rd party simulation application and Thales proprietary systems for use on a Chinook helicopter
+            A middle-man DLL written in C that acts as a communication layer between a 3rd party simulation application and Thales proprietary systems for use on a Chinook helicopter.
           </div>
 
           <ul>
             <li>
-              Strong focus on aggresive unit and integration testing to meet DO-178D certification
+              Primary Engineer developing the solution
             </li>
             <li>
-              Increased my responsibility around the planning and release of the product (i.e., SRS creation,
-              Task Prioritisation, Software and Process Documentation)
+              Strong focus on aggressive unit and integration testing to meet DO-178D certification
+            </li>
+            <li>
+              Increased my responsibility around the planning and release of the solution (i.e., SRS creation,
+              task prioritisation, software and process documentation)
             </li>
           </ul>
         </div>
@@ -92,7 +95,7 @@ const WorkHistory = () => {
 
             </div>
             <div className={"project-date"}>
-              On a Consultation Basis
+              On a Consultant Basis
               <br />
               01/2020 - 06/2020
               <br />
@@ -103,7 +106,7 @@ const WorkHistory = () => {
           <div className="project-desc">
             Map-centric Angular SPA connected, through a high-performance C++ backend, to a simulation
             network with multiple military-grade flight simulators to display and manipulate military
-            training scenarios. A prime focus on usability, performance, and a compact feature-rich design.
+            training scenarios. A prime focus on usability/accessibility, performance, and a compact feature-rich design.
           </div>
 
           <ul>
@@ -138,7 +141,7 @@ const WorkHistory = () => {
           </div>
 
           <div className="project-desc">
-            A solution that simplifies the planning, preparation, and delivery of activities that employ networked simulation environments and resources
+            A solution that simplifies the planning, preparation, and delivery of activities that employ networked simulation environments and resources.
           </div>
 
           <ul>
