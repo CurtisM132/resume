@@ -41,8 +41,7 @@ const WorkHistory = () => {
                 of the system (i.e., digital certificate issuing, PKI management, RESTful APIs)
               </li>
               <li>
-                Utilising Go Test and Ginko to create unit and integration tests for every new
-                feature
+                Utilising Go Test and Ginko for unit and integration testing
               </li>
               <li>
                 Hired, originally, as the primary engineer to create multiple React frontend 
@@ -50,8 +49,11 @@ const WorkHistory = () => {
                 Design UI, and Redux state management
               </li>
               <li>
-                Recently liaised with a sibling team to design and create a service that 
-                handles NFC reader/device communication and performs custom functionality based 
+                Created several SPA mockup designs
+              </li>
+              <li>
+                Recently liaised with a sibling team to design and create a microservice that 
+                handles NFC reader/device communication then performs custom functionality based 
                 on a customer&apos;s specific requirements and security clearance level
               </li>
             </ul>
@@ -154,7 +156,7 @@ const WorkHistory = () => {
 
           <ul>
             <li>
-              Developed the frontend Angular SPA
+              Developed multiple frontend Angular SPAs utilising Material UI
             </li>
             <li>
               Helped to develop the Java Microservice backend

@@ -21,7 +21,7 @@ const EducationHistory = () => {
         institutionDetails="University of Warwick"
       >
         <div className="education-details">
-          Currently attending part-time as an apprentice.
+          Currently attending part-time as an <b>apprentice</b>.
         </div>
       </EducationEntry>
 
@@ -30,10 +30,6 @@ const EducationHistory = () => {
         date="09/2017 - 08/2019"
         institutionDetails="BBP University"
       >
-        <div className="education-details">
-          I started my apprenticeship studying here but transferred to the University
-          of Warwick after two years.
-        </div>
       </EducationEntry>
     </div>
   );

@@ -12,7 +12,8 @@ const INTERESTS = [
   'Weightlifting',
   'Archery',
   'Hiking',
-  'Productivity',
+  'Improv',
+  'Productivity Maximising',
 ];
 
 const Interests = () => {
