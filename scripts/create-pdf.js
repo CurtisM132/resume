@@ -10,7 +10,7 @@ const puppeteer = require('puppeteer');
 
 
 	await page.pdf({
-		path: "CV.pdf",
+		path: "C Martin - CV.pdf",
 		format: "Letter",
 		printBackground: true
 	});

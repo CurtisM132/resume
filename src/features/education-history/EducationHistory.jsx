@@ -21,15 +21,8 @@ const EducationHistory = () => {
         institutionDetails="University of Warwick"
       >
         <div className="education-details">
-          Currently attending part-time as an <b>apprentice</b>.
+          Currently attending part-time as an <b>apprentice</b> and would like to continue my studies at your company.
         </div>
-      </EducationEntry>
-
-      <EducationEntry
-        courseTitle="BSc in Digital and Technology Solutions (Computer Science)"
-        date="09/2017 - 08/2019"
-        institutionDetails="BBP University"
-      >
       </EducationEntry>
     </div>
   );

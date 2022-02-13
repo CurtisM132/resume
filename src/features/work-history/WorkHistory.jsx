@@ -34,30 +34,32 @@ const WorkHistory = () => {
             </div>
           </div>
 
-          <p>
-            <ul>
-              <li>
-                Currently working on Go microservice components to develop critical areas
-                of the system (i.e., digital certificate issuing, PKI management, RESTful APIs)
+          <div className="project-desc">
+            A proof of concept to ensure the integrity and security of data while in transit or at rest and facilitate
+            cross-company information collaboration. Backend is written in Go(lang) utilising a dynamically instantiated
+            Microserver architecture. Multiple frontend SPAs written using React.
+          </div>
+
+          <ul>
+            <li>
+              Day-to-day responsibilities centered around developing various Go(lang) Microservice components to support critical areas
+              of the system (i.e., digital certificate issuing, PKI management, RESTful APIs)
               </li>
-              <li>
-                Utilising Go Test and Ginko for unit and integration testing
+            <li>
+              Recently liaised with a sibling team and shouldered the responsibility to be the sole designer and implementor
+              for a customer critical NFC communications microservice
               </li>
-              <li>
-                Hired, originally, as the primary engineer to create multiple React frontend 
-                SPAs. All SPAs featured a RESTful JSON API (utilising HTTP and WS), a Material 
-                Design UI, and Redux state management
+            <li>
+              Utilising the standard testing library and Ginko with Gomega for unit and integration testing
               </li>
-              <li>
-                Created several SPA mockup designs
+            <li>
+              Hired, originally, as the primary engineer to create multiple React SPAs.
+              All SPAs featured a RESTful JSON API (utilising HTTP and WS), a Material Design UI, and Redux state management
               </li>
-              <li>
-                Recently liaised with a sibling team to design and create a microservice that 
-                handles NFC reader/device communication then performs custom functionality based 
-                on a customer&apos;s specific requirements and security clearance level
+            <li>
+              Designed several SPA mockups (Balsamiq)
               </li>
-            </ul>
-          </p>
+          </ul>
         </div>
 
         <hr />
@@ -80,15 +82,15 @@ const WorkHistory = () => {
 
           <ul>
             <li>
-              Primary Engineer developing the solution
+              Primary Engineer developing the solution from a set of requirements
             </li>
             <li>
-              Strong focus on aggressive unit and integration testing to meet DO-178D
+              Strong focus on aggressive unit and integration testing to meet DO-178D (aircraft worthy)
               certification
             </li>
             <li>
               Increased my responsibility around the planning and release of the solution
-              (i.e., SRS creation, task prioritisation, software and process documentation)
+              (i.e., SRS creation, requirements writing, task prioritisation, various software and process documentation)
             </li>
           </ul>
         </div>
@@ -112,10 +114,9 @@ const WorkHistory = () => {
           </div>
 
           <div className="project-desc">
-            Map-centric Angular SPA connected, through a high-performance C++ backend, to 
+            Map-centric Angular SPA connected, through a high-performance C++ backend, to
             a simulation network with multiple military-grade flight simulators to display
-            and manipulate military training scenarios. A prime focus on usability/accessibility,
-            performance, and a compact feature-rich design.
+            and manipulate military training scenarios.
           </div>
 
           <ul>
@@ -126,7 +127,7 @@ const WorkHistory = () => {
               Helped to develop the C++ backend server
             </li>
             <li>
-              Designed and implemented a GIS map solution (using load-balanced Geoservers) to 
+              Designed and implemented a GIS map solution (using load-balanced Geoservers) to
               provide raster and vector map imagery to the whole system
             </li>
             <li>
@@ -150,8 +151,8 @@ const WorkHistory = () => {
           </div>
 
           <div className="project-desc">
-            A solution that simplifies the planning, preparation, and delivery of activities
-            that employ networked simulation environments and resources.
+            A product to simplify the planning, preparation, and delivery of activities/military scenarios
+            that employ networked (local or global) simulation environments and resources.
           </div>
 
           <ul>
