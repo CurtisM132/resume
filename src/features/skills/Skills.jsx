@@ -10,8 +10,8 @@ import ContentTitle from '../content-title/ContentTitle';
 const PROGRAMMING_LANGUAGES = [
   'Go (Golang)',
   'Javascript',
-  'HTML / CSS',
   'Typescript',
+  'HTML / CSS',
   'Python',
   'C',
 ];
@@ -22,11 +22,12 @@ const FRAMEWORKS = [
 ];
 
 const SOFTWARE_AND_TOOLS = [
-  'Git',
   'Docker',
+  'PostgreSQL',
+  'Git',
+  'Apache HTTP Server',
   'Jira',
   'BitBucket',
-  'Microsoft Office',
 ];
 
 const OPERATING_SYSTEMS = [
@@ -38,6 +39,7 @@ const CI_CD = [
   'Jenkins',
   'Nexus',
   'Maven',
+  'Artifactory',
 ];
 
 const Skills = () => {

@@ -13,7 +13,6 @@ const INTERESTS = [
   'Archery',
   'Hiking',
   'Improv',
-  'Productivity Maximising',
 ];
 
 const Interests = () => {

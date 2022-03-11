@@ -1,14 +1,14 @@
 import React from 'react';
 
 import './MainContent.css';
-import WorkHistory from '../work-history/WorkHistory';
+import WorkExperience from '../work-experience/WorkExperience';
 import EducationHistory from '../education-history/EducationHistory';
 
 const MainContent = () => {
   return (
     <div className="main-content">
       <div style={{ marginBottom: '20px' }}>
-        <WorkHistory />
+        <WorkExperience />
       </div>
       <EducationHistory />
     </div>

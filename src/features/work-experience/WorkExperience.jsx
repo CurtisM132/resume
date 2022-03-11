@@ -4,16 +4,16 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { faBriefcase } from '@fortawesome/free-solid-svg-icons';
 
-import './WorkHistory.css';
+import './WorkExperience.css';
 import ContentTitle from '../content-title/ContentTitle';
 import JobEntry from './job-entry/JobEntry';
 
-const WorkHistory = () => {
+const WorkExperience = () => {
   library.add(faBriefcase);
 
   return (
     <>
-      <ContentTitle icon={<FontAwesomeIcon icon="briefcase" />} text="WORK HISTORY" />
+      <ContentTitle icon={<FontAwesomeIcon icon="briefcase" />} text="WORK EXPERIENCE" />
 
       <JobEntry
         jobTitle="Software Engineer"
@@ -35,30 +35,31 @@ const WorkHistory = () => {
           </div>
 
           <div className="project-desc">
-            A proof of concept to ensure the integrity and security of data while in transit or at rest and facilitate
-            cross-company information collaboration. Backend is written in Go(lang) utilising a dynamically instantiated
-            Microserver architecture. Multiple frontend SPAs written using React.
+            Rapidly developing proof of concept utilising a dynamically instantiated <b>Go(lang) Microservice</b> architecture complete with bespoke
+            and secure service level message transportation.
           </div>
 
           <ul>
             <li>
-              Day-to-day responsibilities centered around developing various Go(lang) Microservice components to support critical areas
-              of the system (i.e., digital certificate issuing, PKI management, RESTful APIs)
-              </li>
+              Developed multiple <b>Go(lang) Microservices</b> for critical areas of the system (i.e., certification authority, PKI management,
+              data persistance using a <b>CouchDB</b> clone, <b>RESTful APIs</b>)
+            </li>
             <li>
-              Recently liaised with a sibling team and shouldered the responsibility to be the sole designer and implementor
-              for a customer critical NFC communications microservice
-              </li>
+              Architected and implemented a customer critical NFC communications Microservice, then demo&apos;d the functionality to top RAF, BAE, and Boeing officials
+            </li>
             <li>
-              Utilising the standard testing library and Ginko with Gomega for unit and integration testing
-              </li>
+              Testing and deployment of the project uses numerous <b>Docker</b> containers
+            </li>
             <li>
-              Hired, originally, as the primary engineer to create multiple React SPAs.
-              All SPAs featured a RESTful JSON API (utilising HTTP and WS), a Material Design UI, and Redux state management
-              </li>
+              <b>Linux</b> (Ubuntu) development environment
+            </li>
             <li>
-              Designed several SPA mockups (Balsamiq)
-              </li>
+              Heavy test coverage using both Unit (standard library) and Integration (<b>Ginko</b> and <b>Gomega</b>) tests
+            </li>
+            <li>
+              Additionally worked, for a period, as the Lead Software Engineer developing the project&apos;s React SPAs.
+              All featured <b>REST</b> JSON APIs (utilising <b>HTTP</b> and <b>WS</b>), a <b>Material Design</b> UI, and <b>Redux</b> state management
+            </li>
           </ul>
         </div>
 
@@ -75,22 +76,19 @@ const WorkHistory = () => {
           </div>
 
           <div className="project-desc">
-            A middle-man DLL written in C that acts as a communication layer between a 3rd
-            party simulation application and Thales proprietary systems for use on a Chinook
-            helicopter.
+            Middle-man DLL written in <b>C</b>. Critical communication layer between 3rd party instrument software and Thales systems
+            for use in active service Chinook (military) helicopters.
           </div>
 
           <ul>
             <li>
-              Primary Engineer developing the solution from a set of requirements
+              Lead Software Engineer
             </li>
             <li>
-              Strong focus on aggressive unit and integration testing to meet DO-178D (aircraft worthy)
-              certification
+              Aggressive Unit and Integration testing to meet DO-178D (aircraft worthiness) certification
             </li>
             <li>
-              Increased my responsibility around the planning and release of the solution
-              (i.e., SRS creation, requirements writing, task prioritisation, various software and process documentation)
+              High degree of project responsibility (i.g., SRS creation, task scheduling, running Agile meetings)
             </li>
           </ul>
         </div>
@@ -114,24 +112,22 @@ const WorkHistory = () => {
           </div>
 
           <div className="project-desc">
-            Map-centric Angular SPA connected, through a high-performance C++ backend, to
-            a simulation network with multiple military-grade flight simulators to display
-            and manipulate military training scenarios.
+            Map-centric <b>Angular</b> SPA connected, through a high-performance <b>C++</b> backend, to
+            a simulation network with multiple military-grade flight simulators for pilot training scenarios.
           </div>
 
           <ul>
             <li>
-              Developed the frontend map-centric (OpenLayers) Angular SPA
+              Developed the frontend map-centric (using OpenLayers/Cesium) <b>Angular</b> SPA
             </li>
             <li>
-              Helped to develop the C++ backend server
+              Helped develop the high performance multi-threaded <b>C++</b> backend server
             </li>
             <li>
-              Designed and implemented a GIS map solution (using load-balanced Geoservers) to
-              provide raster and vector map imagery to the whole system
+              Designed and implemented an efficient and performant GIS Map Solution (using Geoservers load-balanced with <b>Apache HTTP Server</b>)
             </li>
             <li>
-              Created multiple Python scripts to reduce process overhead and increase productivity
+              Developed multiple <b>Python</b> scripts to automate heavy overhead processses
             </li>
           </ul>
         </div>
@@ -157,10 +153,10 @@ const WorkHistory = () => {
 
           <ul>
             <li>
-              Developed multiple frontend Angular SPAs utilising Material UI
+              Developed multiple <b>Angular</b> SPAs
             </li>
             <li>
-              Helped to develop the Java Microservice backend
+              Helped develop the <b>Java Microservice</b> backend
             </li>
           </ul>
         </div>
@@ -169,4 +165,4 @@ const WorkHistory = () => {
   );
 };
 
-export default WorkHistory;
+export default WorkExperience;

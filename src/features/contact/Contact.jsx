@@ -22,7 +22,7 @@ const Contact = () => {
 
       <div className="row-container">
         <FontAwesomeIcon icon="at" className="contact-icon" style={{ marginTop: '2px' }} />
-        <div></div>
+        <div style={{fontSize: "0.72rem"}}></div>
       </div>
       <div className="row-container">
         <FontAwesomeIcon icon="phone-alt" className="contact-icon" />
@@ -34,7 +34,7 @@ const Contact = () => {
       </div>
       <div className="row-container">
         <FontAwesomeIcon icon="link" className="contact-icon" />
-        <div>www.linkedin.com/in/curtismartin3</div>
+        <div style={{fontSize: "0.72rem"}}>www.linkedin.com/in/curtismartin3</div>
       </div>
     </div>
   );
