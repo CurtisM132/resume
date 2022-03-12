@@ -40,7 +40,7 @@ const WorkExperience = () => {
           <ul>
             <li>
               Developed multiple <b>Go(lang) Microservices</b> for critical areas of the system (i.e., certification authority, PKI management,
-              data persistance using a <b>CouchDB</b> clone, <b>RESTful APIs</b>).
+              data persistence using a <b>CouchDB</b> clone, <b>RESTful APIs</b>).
             </li>
             <li>
               Architected and implemented a customer critical NFC communications Microservice, then demo&apos;d the functionality to top RAF, BAE, and Boeing officials.
@@ -85,7 +85,7 @@ const WorkExperience = () => {
               Aggressive Unit and Integration testing to meet DO-178D (aircraft worthiness) certification
             </li>
             <li>
-              High degree of project responsibility (i.g., SRS creation, task scheduling, running Agile meetings)
+              High degree of project responsibility (i.e., SRS creation, task scheduling, running Agile meetings)
             </li>
           </ul>
         </div>
@@ -122,7 +122,7 @@ const WorkExperience = () => {
               Designed and implemented an efficient and performant GIS Map Solution (using Geoservers load-balanced with Apache HTTP Server)
             </li>
             <li>
-              Developed multiple <b>Python</b> scripts to automate heavy overhead processses
+              Developed multiple <b>Python</b> scripts to automate heavy overhead processes
             </li>
           </ul>
         </div>

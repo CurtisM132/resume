@@ -35,7 +35,7 @@ const WorkExperience = () => {
           <ul>
             <li>
               Developed multiple <b>Go/Golang Microservices</b> for critical areas of the system (i.e., certification authority, PKI management,
-              data persistance using a <b>CouchDB</b> clone, <b>RESTful APIs</b>)
+              data persistence using a <b>CouchDB</b> clone, <b>RESTful APIs</b>)
             </li>
             <li>
               Architected and implemented a customer critical NFC communications Microservice, then personally demo&apos;d
@@ -71,7 +71,7 @@ const WorkExperience = () => {
           <ul>
             <li>
               Developed a helicopter flight instrument data transformation DLL, written in <b>C</b> (GCC compiled), critical for the
-              continued use of active service Chinook helicopers
+              continued use of active service Chinook helicopters
             </li>
             <li>
               Directly collaborated with the customer and Project Manager to architect a maintainable solution
@@ -81,7 +81,7 @@ const WorkExperience = () => {
               Aggressive Unit and Integration testing to meet DO-178D (aircraft worthiness) certification
             </li>
             <li>
-              High degree of project responsibility (i.g., SRS creation, task scheduling, running Agile meetings)
+              High degree of project responsibility (i.e., SRS creation, task scheduling, running Agile meetings)
             </li>
           </ul>
         </div>
@@ -115,7 +115,7 @@ const WorkExperience = () => {
               which continues to be used for site deployments and demos
             </li>
             <li>
-              Developed multiple <b>Python</b> scripts to automate heavy overhead processses and improve team productivity
+              Developed multiple <b>Python</b> scripts to automate heavy overhead processes and improve team productivity
             </li>
           </ul>
         </div>
@@ -135,7 +135,7 @@ const WorkExperience = () => {
           <ul>
             <li>
               Interfaced directly with the customer to develop multiple <b>Angular</b> SPAs that simplified the configuration 
-              and running of military simulators and their associated resources
+              and instantiation of military simulators and their associated resources
             </li>
             <li>
               Helped develop <b>Java Microservices</b> deployed using Docker networks with a RabbitMQ broker
