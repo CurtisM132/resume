@@ -1,0 +1,27 @@
+.header {
+    display: flex;
+    flex-direction: column;
+
+    height: fit-content;
+    padding: 1.2em 1em;
+
+    background-color: #2D3A56;
+    color: white;
+
+    z-index: 999;
+}
+
+.name {
+    text-align: center;
+
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+.header-tag {
+    margin: 0.5em 0 1.2em 0;
+
+    text-align: center;
+
+    font-size: 0.85em;
+}

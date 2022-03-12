@@ -8,7 +8,6 @@ const puppeteer = require('puppeteer');
 		waitUntil: "networkidle2"
 	});
 
-
 	await page.pdf({
 		path: "C Martin - CV.pdf",
 		format: "Letter",

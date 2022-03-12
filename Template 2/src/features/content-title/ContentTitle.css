@@ -1,0 +1,20 @@
+.content-title-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    margin-bottom: 10px;
+    border-bottom: 1px solid black;
+}
+
+.content-title-text {
+    font-size: 1.2rem;
+
+    color: black;
+}
+
+.content-title-icon {
+    margin-right: 8px;
+
+    font-size: 1.1rem;
+}

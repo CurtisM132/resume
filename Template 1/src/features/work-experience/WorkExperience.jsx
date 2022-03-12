@@ -26,8 +26,6 @@ const WorkExperience = () => {
           <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-between' }}>
             <div>
               <b>Cybels - Trusted Communities (R&#38;D)</b>
-              <br />
-              <i>https://www.thalesgroup.com/en/cybels-protect-0</i>
             </div>
             <div className="project-date">
               03/2020 - Present
@@ -42,23 +40,22 @@ const WorkExperience = () => {
           <ul>
             <li>
               Developed multiple <b>Go(lang) Microservices</b> for critical areas of the system (i.e., certification authority, PKI management,
-              data persistance using a <b>CouchDB</b> clone, <b>RESTful APIs</b>)
+              data persistance using a <b>CouchDB</b> clone, <b>RESTful APIs</b>).
             </li>
             <li>
-              Architected and implemented a customer critical NFC communications Microservice, then demo&apos;d the functionality to top RAF, BAE, and Boeing officials
+              Architected and implemented a customer critical NFC communications Microservice, then demo&apos;d the functionality to top RAF, BAE, and Boeing officials.
             </li>
             <li>
-              Testing and deployment of the project uses numerous <b>Docker</b> containers
+              Testing and deployment of the project uses numerous <b>Docker</b> containers.
             </li>
             <li>
-              <b>Linux</b> (Ubuntu) development environment
+              <b>Linux</b> (Ubuntu) development environment.
             </li>
             <li>
-              Heavy test coverage using both Unit (standard library) and Integration (<b>Ginko</b> and <b>Gomega</b>) tests
+              Heavy test coverage using both Unit (standard library) and Integration (<b>Ginko</b> and <b>Gomega</b>) tests.
             </li>
             <li>
               Additionally worked, for a period, as the Lead Software Engineer developing the project&apos;s React SPAs.
-              All featured <b>REST</b> JSON APIs (utilising <b>HTTP</b> and <b>WS</b>), a <b>Material Design</b> UI, and <b>Redux</b> state management
             </li>
           </ul>
         </div>
@@ -98,9 +95,7 @@ const WorkExperience = () => {
         <div className="project-details">
           <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-between' }}>
             <div>
-              <b>FACT</b>
-              <br />
-
+              <b>Facilities for Air Combat Training (FACT)</b>
             </div>
             <div className="project-date">
               On a Consultant Basis
@@ -124,7 +119,7 @@ const WorkExperience = () => {
               Helped develop the high performance multi-threaded <b>C++</b> backend server
             </li>
             <li>
-              Designed and implemented an efficient and performant GIS Map Solution (using Geoservers load-balanced with <b>Apache HTTP Server</b>)
+              Designed and implemented an efficient and performant GIS Map Solution (using Geoservers load-balanced with Apache HTTP Server)
             </li>
             <li>
               Developed multiple <b>Python</b> scripts to automate heavy overhead processses
@@ -138,8 +133,6 @@ const WorkExperience = () => {
           <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-between' }}>
             <div>
               <b>Nuada</b>
-              <br />
-              <i>https://www.thalesgroup.com/en/nuada</i>
             </div>
             <div className="project-date">
               02/2019 - 08/2019
@@ -147,8 +140,8 @@ const WorkExperience = () => {
           </div>
 
           <div className="project-desc">
-            A product to simplify the planning, preparation, and delivery of activities/military scenarios
-            that employ networked (local or global) simulation environments and resources.
+            A product to simplify the planning, preparation, and delivery of military training scenarios
+            that employ networked simulation environments and resources.
           </div>
 
           <ul>

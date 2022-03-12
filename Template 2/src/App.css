@@ -1,0 +1,18 @@
+.app {
+	width: 816px;
+  height: 1056px;
+
+  display: flex;
+  flex-direction: column;
+
+  /* background-color: #E4E4E4; */
+
+  overflow-y: hidden;
+}
+
+.body-container {
+  display: flex;
+  flex-direction: row;
+
+  height: 100%;
+}

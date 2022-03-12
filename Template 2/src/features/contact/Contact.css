@@ -1,0 +1,19 @@
+.contact-container {
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.row-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    font-size: 0.8rem;
+}
+
+.contact-icon {
+    margin-right: 5px;
+}

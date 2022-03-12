@@ -1,0 +1,31 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+    justify-content: space-between
+}
+
+.job-title {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.employer-details {
+    font-size: 0.8rem;
+    font-weight: light;
+}
+
+.job-date {
+    margin-top: 4px;
+
+    font-size: 0.7rem;
+    font-weight: light;
+}
+
+.project-details {
+    font-size: 0.8rem;
+}
+
+hr {
+    margin: 15px 0;
+}

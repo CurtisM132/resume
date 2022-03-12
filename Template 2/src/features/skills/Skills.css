@@ -1,0 +1,17 @@
+.skill-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 25px;
+}
+
+.skill-subtitle {
+    color: #DC3522;
+    font-size: 1.1rem;
+    /* font-style: italic; */
+    margin-bottom: 3px;
+}
+
+.skill-text {
+    font-size: 0.85rem;
+    margin-bottom: 2px;
+}

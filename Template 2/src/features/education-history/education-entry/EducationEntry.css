@@ -1,0 +1,31 @@
+.education-entry-container {
+    margin-bottom: 20px;
+}
+
+.education-details-container {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    justify-content: space-between;
+}
+
+.course-title {
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+.institution-details {
+    font-size: 0.8rem;
+    font-weight: lighter;
+}
+
+.education-date {
+    margin-top: 2px;
+
+    font-size: 0.7rem;
+    font-weight: lighter;
+}
+
+.education-details {
+    font-size: 0.8rem;
+}
