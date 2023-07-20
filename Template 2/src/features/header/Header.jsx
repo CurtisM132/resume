@@ -10,11 +10,14 @@ const Header = () => {
       <div className="name">
         Curtis Martin
       </div>
-      
+
       <div className="header-tag">
-        Backend Mid-level Software Engineer of 4.5 years at Thales 
+        Backend Software Engineer
         <br />
-        Currently developing Go/Golang Microservices, in a Linux environment, for deployment and testing in Docker containers
+
+        <span className="header-subtag">
+          Over 6 years of experience, the most recent 2 exclusively working on Go(lang) Microservices
+        </span>
       </div>
       
       <Contact />

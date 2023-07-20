@@ -21,7 +21,7 @@ const EducationHistory = () => {
         institutionDetails="University of Warwick"
       >
         <div className="education-details">
-          Currently attending part-time as an apprentice.
+          First Class with Honours
         </div>
       </EducationEntry>
     </div>

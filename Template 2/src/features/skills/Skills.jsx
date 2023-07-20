@@ -8,9 +8,9 @@ import './Skills.css';
 import ContentTitle from '../content-title/ContentTitle';
 
 const PROGRAMMING_LANGUAGES = [
-  'Go (Golang)',
-  'Javascript',
+  'Go(lang)',
   'Typescript',
+  'Javascript',
   'HTML / CSS',
   'Python',
   'C',
@@ -23,10 +23,11 @@ const FRAMEWORKS = [
 
 const SOFTWARE_AND_TOOLS = [
   'Docker',
+  'Kubernetes',
   'PostgreSQL',
   'Git',
-  'Jira',
-  'BitBucket',
+  'Prometheus',
+  'Grafana',
   'SonarCube',
 ];
 
@@ -36,6 +37,7 @@ const OPERATING_SYSTEMS = [
 ];
 
 const CI_CD = [
+  'Concourse',
   'Jenkins',
   'Nexus',
   'Maven',
@@ -44,10 +46,11 @@ const CI_CD = [
 
 const OTHER = [
   'Agile / Scrum',
+  'Kanban',
   'REST',
-  'HTTP',
-  'WebSockets',
-  'Pub / Sub',
+  'gRPC',
+  'Protobuf',
+  'Pub / Sub (MQTT)',
 ];
 
 const Skills = () => {

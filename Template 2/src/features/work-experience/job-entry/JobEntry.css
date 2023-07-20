@@ -1,7 +1,6 @@
 .container {
     display: flex;
     flex-direction: row;
-    margin-bottom: 15px;
     justify-content: space-between
 }
 
@@ -27,5 +26,5 @@
 }
 
 hr {
-    margin: 15px 0;
+    margin: 12px 0;
 }

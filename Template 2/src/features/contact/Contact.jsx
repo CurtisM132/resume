@@ -18,7 +18,7 @@ const Contact = () => {
     <div className="contact-container">
       <div className="row-container">
         <FontAwesomeIcon icon="home" className="contact-icon" />
-        <div>Reading, Berkshire</div>
+        <div>UK / Remote</div>
       </div>
       <div className="row-container">
         <FontAwesomeIcon icon="phone-alt" className="contact-icon" />
@@ -26,7 +26,7 @@ const Contact = () => {
       </div>
       <div className="row-container">
         <FontAwesomeIcon icon="at" className="contact-icon" style={{ marginTop: '2px' }} />
-        <div style={{fontSize: "0.72rem"}}>curtisastonmartin@hotmail.co.uk</div>
+        <div style={{fontSize: "0.72rem"}}>curtis.martin.work@proton.me</div>
       </div>
       <div className="row-container">
         <FontAwesomeIcon icon="link" className="contact-icon" />
