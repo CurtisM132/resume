@@ -3,13 +3,14 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import {
-  faAt, faPhoneAlt, faHome, faLink,
+  faIdCard, faAt, faPhoneAlt, faHome, faLink,
 } from '@fortawesome/free-solid-svg-icons';
 
 import './Contact.css';
 import ContentTitle from '../../content-title/ContentTitle';
 
 const Contact = () => {
+  library.add(faIdCard);
   library.add(faHome);
   library.add(faAt);
   library.add(faPhoneAlt);
@@ -17,7 +18,7 @@ const Contact = () => {
 
   return (
     <div className="contact-container">
-      <ContentTitle icon={<FontAwesomeIcon icon="chart-line" />} text="CONTACT" />
+      <ContentTitle icon={<FontAwesomeIcon icon="id-card" />} text="CONTACT" />
 
       <div className="row-container">
         <FontAwesomeIcon icon="home" className="contact-icon" />

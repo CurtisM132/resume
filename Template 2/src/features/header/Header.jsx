@@ -1,6 +1,5 @@
 import React from 'react';
 
-
 import './Header.css';
 
 const Header = () => {
@@ -11,12 +10,9 @@ const Header = () => {
       </div>
 
       <div className="header-tag">
-        Highly motivated, dependable, and empathetic Software Engineer with over 6 years of enterprise experience looking 
-        to switch careers and transition into remote sales. I&apos;m confident I can be an asset for your sales team due
-         to my unique mixture of curiosity, obsession with personal development, and willingness to learn.
-        
-        <br />
-
+        Highly motivated, dependable, and empathetic Software Engineer with over 6 years of enterprise experience transitioning
+         into remote sales. Confident I can be an asset for your sales team, if given a chance, due to my unique mixture of 
+         curiosity, obsession with personal development, and willingness to learn and be coached.
       </div>
     </div>
   );
