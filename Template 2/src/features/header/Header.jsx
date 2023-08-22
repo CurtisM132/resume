@@ -12,12 +12,12 @@ const Header = () => {
       </div>
 
       <div className="header-tag">
-        Backend Software Engineer
+        Backend Software Engineer with 6 Years of Experience
         <br />
 
-        <span className="header-subtag">
+        {/* <span className="header-subtag">
           Over 6 years of experience, the most recent 2 exclusively working on Go(lang) Microservices
-        </span>
+        </span> */}
       </div>
       
       <Contact />

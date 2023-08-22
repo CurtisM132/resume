@@ -17,7 +17,7 @@ const WorkExperience = () => {
 
       <JobEntry
         jobTitle="Backend Engineer"
-        date="06/2023 - Present"
+        date="03/2022 - Present"
         employerDetails="Yoti"
       >
         <hr className="line-break" />
@@ -34,17 +34,17 @@ const WorkExperience = () => {
 
           <ul>
             <li>
-              Actively developing the project&apos;s fleet of <b>Go(lang) Microservices</b>
+              Actively developing the project&apos;s fleet of Go(lang) Microservices
             </li>
             <li>
-              Architected and implemented an entity-specific event storage and aggregation system using <b>CQRS</b> to decrease 
+              Architected and implemented an entity-specific event storage and aggregation system using CQRS to decrease 
               consumer query times by over 10x leading to reduced customer bounce rates 
             </li>
             <li>
-              Use of <b>Protobuf</b> and <b>gRPC/REST</b> for inter-service communication
+              Use of Protobuf and gRPC/REST for inter-service communication
             </li>
             <li>
-              Data persistence via <b>PostgreSQL</b> (with JSON document storage)
+              Data persistence via PostgreSQL (with JSON document storage)
             </li>
           </ul>
         </div>
@@ -70,16 +70,17 @@ const WorkExperience = () => {
 
           <ul>
             <li>
-              Developed <b>Go(lang) Microservices</b> for critical areas of the system (i.e., CA, PKI management, <b>CouchDB</b> clone, <b>RESTful APIs</b>)
+              Developed Go(lang) Microservices for critical areas of the system (i.e., CA, PKI management, CouchDB clone, RESTful APIs)
             </li>
             <li>
-              Architected and implemented a bespoke NFC Microservice, then personally demonstrated the functionality to top RAF, BAE, and Boeing officials
+              Architected and implemented a bespoke NFC Microservice, then personally demonstrated the functionality to top RAF, BAE, and 
+              Boeing officials to secure further project funding
             </li>
             <li>
-              Heavy Unit and Integration (<b>Ginko</b> and <b>Gomega</b>) test coverage
+              Heavy Unit and Integration (Ginko and Gomega) test coverage
             </li>
             <li>
-              Worked, for a 3 month period, as the Lead Frontend Engineer developing the project&apos;s React SPAs
+              Additionally worked, for a 3 month period, as the Lead Frontend Engineer developing the project&apos;s React SPAs
             </li>
           </ul>
         </div>
@@ -98,14 +99,14 @@ const WorkExperience = () => {
 
           <ul>
             <li>
-              Developed a <b>C</b> DLL critical for the continued use of military service Chinook helicopters
+              Developed a C DLL critical for the continued use of military service Chinook helicopters
             </li>
             <li>
               Directly interfaced and collaborated with project stakeholders to architect a maintainable solution
               which I then delivered on time and within budget
             </li>
             <li>
-              High degree of project responsibility (i.e., Scrum Master, requirement capturing, etc)
+              High degree of project responsibility (i.e., Scrum Master, requirements capturing, etc)
             </li>
           </ul>
         </div>
@@ -128,10 +129,10 @@ const WorkExperience = () => {
 
           <ul>
             <li>
-              Developed the map-centric (OpenLayers/Cesium) <b>Angular</b> SPA, which connected through a RESTful HTTP and WS API to the C++ backend
+              Developed the map-centric (OpenLayers/Cesium) Angular SPA, which connected through a RESTful HTTP and WS API to the C++ backend
             </li>
             <li>
-              Helped develop the backend <b>C++</b> server which interconnected via HLA to 8 other systems
+              Helped develop the backend C++ server which interconnected via HLA to 8 other systems
             </li>
             <li>
               Implemented a bespoke GIS Map Solution (Geoservers load-balanced with Apache HTTP Server)
@@ -153,11 +154,11 @@ const WorkExperience = () => {
 
           <ul>
             <li>
-              Interfaced directly with the customer to develop multiple <b>Angular</b> SPAs that simplified the configuration 
-              and instantiation of military simulators and their associated resources
+              Directly interfaced with customers to develop multiple Angular SPAs that simplified the configuration 
+              and instantiation of military flight simulators
             </li>
             <li>
-              Helped develop <b>Java Microservices</b> deployed using Docker networks with a RabbitMQ broker
+              Helped develop Java Microservices deployed using Docker networks with a RabbitMQ broker
             </li>
           </ul>
         </div>
