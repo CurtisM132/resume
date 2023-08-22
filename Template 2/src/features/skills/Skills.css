@@ -4,6 +4,10 @@
     margin-bottom: 25px;
 }
 
+.skill-container:last-child {
+    margin-bottom: 0;
+}
+
 .skill-subtitle {
     color: #DC3522;
     font-size: 1.1rem;
@@ -13,5 +17,9 @@
 
 .skill-text {
     font-size: 0.85rem;
-    margin-bottom: 2px;
+    margin-bottom: 5px;
+}
+
+.skill-text:last-child {
+    margin-bottom: 0;
 }

@@ -7,50 +7,18 @@ import { faChartLine } from '@fortawesome/free-solid-svg-icons';
 import './Skills.css';
 import ContentTitle from '../content-title/ContentTitle';
 
-const PROGRAMMING_LANGUAGES = [
-  'Go(lang)',
-  'Typescript',
-  'Javascript',
-  'HTML / CSS',
-  'Python',
-  'C',
-];
-
-const FRAMEWORKS = [
-  'React',
-  'Angular',
-];
-
-const SOFTWARE_AND_TOOLS = [
-  'Docker',
-  'Kubernetes',
-  'PostgreSQL',
-  'Git',
-  'Prometheus',
-  'Grafana',
-  'SonarCube',
-];
-
-const OPERATING_SYSTEMS = [
-  'Windows',
-  'Linux',
-];
-
-const CI_CD = [
-  'Concourse',
-  'Jenkins',
-  'Nexus',
-  'Maven',
-  'Artifactory',
+const TRAITS = [
+  'Results Driven',
+  'Self Motivated',
+  'Active Listener',
+  'Optimist',
+  'Feedback Seeking',
+  'Stress Tolerant',
 ];
 
 const OTHER = [
-  'Agile / Scrum',
-  'Kanban',
-  'REST',
-  'gRPC',
-  'Protobuf',
-  'Pub / Sub (MQTT)',
+  'Technically Adept',
+  'Project Management',
 ];
 
 const Skills = () => {
@@ -62,58 +30,10 @@ const Skills = () => {
 
       <div className="skill-container">
         <div className="skill-subtitle">
-          Languages
+          Traits
         </div>
 
-        {PROGRAMMING_LANGUAGES.map((i) => (
-          <div className="skill-text" key={i}>
-            {i}
-          </div>
-        ))}
-      </div>
-
-      <div className="skill-container">
-        <div className="skill-subtitle">
-          Frameworks
-        </div>
-
-        {FRAMEWORKS.map((i) => (
-          <div className="skill-text" key={i}>
-            {i}
-          </div>
-        ))}
-      </div>
-
-      <div className="skill-container">
-        <div className="skill-subtitle">
-          Software &#38; Tools
-        </div>
-
-        {SOFTWARE_AND_TOOLS.map((i) => (
-          <div className="skill-text" key={i}>
-            {i}
-          </div>
-        ))}
-      </div>
-
-      <div className="skill-container">
-        <div className="skill-subtitle">
-          Operating Systems
-        </div>
-
-        {OPERATING_SYSTEMS.map((i) => (
-          <div className="skill-text" key={i}>
-            {i}
-          </div>
-        ))}
-      </div>
-
-      <div className="skill-container">
-        <div className="skill-subtitle">
-          CI / CD
-        </div>
-
-        {CI_CD.map((i) => (
+        {TRAITS.map((i) => (
           <div className="skill-text" key={i}>
             {i}
           </div>
@@ -131,6 +51,7 @@ const Skills = () => {
           </div>
         ))}
       </div>
+
     </div>
   );
 };
