@@ -1,6 +1,5 @@
 import React from 'react';
 
-import Contact from '../contact/Contact';
 
 import './Header.css';
 
@@ -17,11 +16,8 @@ const Header = () => {
          to my unique mixture of curiosity, obsession with personal development, and willingness to learn.
         
         <br />
-        <br />
 
       </div>
-      
-      <Contact />
     </div>
   );
 };
