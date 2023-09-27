@@ -34,11 +34,11 @@ const WorkExperience = () => {
 
           <ul>
             <li>
-              Actively developing the project&apos;s fleet of Go(lang) Microservices
+              Actively developing the project&apos;s fleet of Go(lang) 50 Microservices
             </li>
             <li>
-              Architected and implemented an event storage and aggregation system with CQRS to decrease query 
-              times by over 10x to reduce the website bounce rate 
+              Architected and implemented an event storage and aggregation system with CQRS to decrease website query 
+              times and bounce rates by over 10x 
             </li>
           </ul>
         </div>
@@ -64,14 +64,14 @@ const WorkExperience = () => {
 
           <ul>
             <li>
-              Development ownership of multiple system critical Go(lang) Microservices
+              Spearheaded end-to-end ownership of multiple system-critical Go(lang) microservices
             </li>
             <li>
               Architected and implemented a custom NFC Microservice, then personally presented the functionality to top RAF, BAE, and 
               Boeing officials to secure further project funding
             </li>
             <li>
-              Worked independantly, for a 3 month period, as the Lead Frontend Engineer
+              Additionally worked, for a 3 month period, as the Lead Frontend Engineer
             </li>
           </ul>
         </div>
@@ -90,11 +90,9 @@ const WorkExperience = () => {
 
           <ul>
             <li>
-              Developed a C DLL required for the continued use of military service Chinook helicopters
-            </li>
-            <li>
               Directly interfaced and collaborated with project stakeholders to architect a maintainable solution
-              which I then delivered within strict time and budget constraints
+              required for the continued use of 60 active military service Chinook helicopters. Delivered within
+              strict time and budget constraints
             </li>
             <li>
               High degree of project responsibility (i.e., Scrum Master, requirement capturing, etc)
@@ -143,13 +141,13 @@ const WorkExperience = () => {
 
           <ul>
             <li>
-              Developed the map-centric (OpenLayers/Cesium) Angular SPA, which connected through a RESTful HTTP and WS API to the C++ backend
+              Developed the innovative map-centric (OpenLayers/Cesium) Angular website that became the defacto system for air force training simulation planning
             </li>
             <li>
-              Helped develop, in coordination with other teams, the backend C++ server
+              Helped develop, in coordination with 3 other teams, the backend C++ server
             </li>
             <li>
-              Independantly researched, designed, and implemented a bespoke GIS map solution
+              Independently researched, designed, and delivered a bespoke GIS map solution to provide the entire system with military grade ground imaging
             </li>
           </ul>
         </div>

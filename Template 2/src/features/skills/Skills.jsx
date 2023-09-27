@@ -13,7 +13,7 @@ const TRAITS = [
   'Active Listener',
   'Optimist',
   'Feedback Seeking',
-  'Stress Tolerant',
+  'Stress Thriving',
 ];
 
 const OTHER = [

@@ -10,9 +10,9 @@ const Header = () => {
       </div>
 
       <div className="header-tag">
-        Highly motivated, dependable, and empathetic Software Engineer with over 6 years of enterprise experience transitioning
-         into remote sales. Confident I can be an asset for your sales team, if given a chance, due to my unique mixture of 
-         curiosity, obsession with personal development, and willingness to learn and be coached.
+        Driven, dependable, and empathetic Software Engineer with over 6 years of enterprise experience transitioning
+         into remote sales. Deeply integrity driven and searching for a company that aligns with my values and delivers consistent
+         and outstanding fulfilment. I&apos;m confident, if given the chance, that I can be a beneficial and long-term asset for your sale team.
       </div>
     </div>
   );
