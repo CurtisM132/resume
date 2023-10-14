@@ -22,7 +22,7 @@ const Contact = () => {
 
       <div className="row-container">
         <FontAwesomeIcon icon="home" className="contact-icon" />
-        <div>UK / Remote</div>
+        <div>Reading, UK</div>
       </div>
       <div className="row-container">
         <FontAwesomeIcon icon="phone-alt" className="contact-icon" />
@@ -35,7 +35,8 @@ const Contact = () => {
       <div className="row-container">
         <FontAwesomeIcon icon="link" className="contact-icon" />
         {/* <div style={{fontSize: "0.72rem"}}>www.linkedin.com/in/curtismartin3</div> */}
-        <a style={{fontSize: "0.72rem"}} href="http://www.linkedin.com/in/curtismartin3">curtismartin3</a>
+        {/* <a style={{fontSize: "0.72rem"}} href="http://www.linkedin.com/in/curtismartin3">curtismartin3</a> */}
+        <a style={{fontSize: "0.72rem"}} href="https://linktr.ee/curtis__martin">Linktree</a>
 
       </div>
     </div>

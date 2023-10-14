@@ -13,7 +13,7 @@ const WorkExperience = () => {
 
   return (
     <>
-      <ContentTitle icon={<FontAwesomeIcon icon="briefcase" />} text="WORK EXPERIENCE" />
+      <ContentTitle icon={<FontAwesomeIcon icon="briefcase" />} text="EXPERIENCE" />
 
       <JobEntry
         jobTitle="Backend Engineer"
@@ -34,7 +34,10 @@ const WorkExperience = () => {
 
           <ul>
             <li>
-              Actively developing the project&apos;s fleet of Go(lang) 50 Microservices
+              Interfacing with and implementing feedback from Fortune 500 companies (e.g., Facebook, Tik Tok, Lloyds Bank)
+            </li>
+            <li>
+              Actively developing the project&apos;s fleet of 50 Go(lang) Microservices
             </li>
             <li>
               Architected and implemented an event storage and aggregation system with CQRS to decrease website query 
@@ -64,11 +67,11 @@ const WorkExperience = () => {
 
           <ul>
             <li>
-              Spearheaded end-to-end ownership of multiple system-critical Go(lang) microservices
+              Spearheaded end-to-end ownership of multiple system-critical components to produce a one-of-a-kind 
+              Public Key Infrastructure as a Service (PKIaaS) solution
             </li>
             <li>
-              Architected and implemented a custom NFC Microservice, then personally presented the functionality to top RAF, BAE, and 
-              Boeing officials to secure further project funding
+              Demonstrated the system to top RAF, BAE, and Boeing officials to secure further project funding
             </li>
             <li>
               Additionally worked, for a 3 month period, as the Lead Frontend Engineer
@@ -90,12 +93,12 @@ const WorkExperience = () => {
 
           <ul>
             <li>
-              Directly interfaced and collaborated with project stakeholders to architect a maintainable solution
+              Directly interfaced and collaborated with project stakeholders to architect a solution
               required for the continued use of 60 active military service Chinook helicopters. Delivered within
               strict time and budget constraints
             </li>
             <li>
-              High degree of project responsibility (i.e., Scrum Master, requirement capturing, etc)
+              High degree of project responsibility (i.e., Scrum Master, requirement capturing, documentation verifier, etc)
             </li>
           </ul>
         </div>
@@ -114,11 +117,13 @@ const WorkExperience = () => {
 
           <ul>
             <li>
-              Interfaced directly with the customer to develop multiple innovative Angular SPAs to simplify the configuration 
-              and instantiation of military simulators
+              Demo-ed and interfaced with the customer every month to develop the system to their needs
             </li>
             <li>
-              Helped develop Java Microservices deployed using Docker with a RabbitMQ broker
+              Produced a solution to simplify the configuration and instantiation of cross-functional and geographically dispersed military simulators
+            </li>
+            <li>
+              Demonstrated the system to military personnel at an annual trade show (I/ITSEC)
             </li>
           </ul>
         </div>
@@ -141,13 +146,13 @@ const WorkExperience = () => {
 
           <ul>
             <li>
-              Developed the innovative map-centric (OpenLayers/Cesium) Angular website that became the defacto system for air force training simulation planning
+              Developed the greenfield map-centric website that became the defacto system for air force simulation training planning and execution
             </li>
             <li>
-              Helped develop, in coordination with 3 other teams, the backend C++ server
+              Demo-ed and interfaced with the customer every month to develop the system to their needs
             </li>
             <li>
-              Independently researched, designed, and delivered a bespoke GIS map solution to provide the entire system with military grade ground imaging
+              Independently researched, designed, and delivered a bespoke GIS system to provide military-grade ground imaging
             </li>
           </ul>
         </div>

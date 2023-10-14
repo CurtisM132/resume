@@ -10,10 +10,9 @@ import ContentTitle from '../content-title/ContentTitle';
 const TRAITS = [
   'Results Driven',
   'Self Motivated',
-  'Active Listener',
-  'Optimist',
   'Feedback Seeking',
   'Stress Thriving',
+  'Active Listener',
 ];
 
 const OTHER = [

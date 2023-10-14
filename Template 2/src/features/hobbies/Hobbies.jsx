@@ -22,7 +22,7 @@ const Hobbies = () => {
 
   return (
     <div>
-      <ContentTitle icon={<FontAwesomeIcon icon="book" />} text="HOBBIES" />
+      <ContentTitle icon={<FontAwesomeIcon icon="book" />} text="INTERESTS" />
 
       <div className="hobbies-container">
         {HOBBIES.map((i) => (

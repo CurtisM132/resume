@@ -10,9 +10,10 @@ const Header = () => {
       </div>
 
       <div className="header-tag">
-        Driven, dependable, and empathetic Software Engineer with over 6 years of enterprise experience transitioning
-         into remote sales. Deeply integrity driven and searching for a company that aligns with my values and delivers consistent
-         and outstanding fulfilment. I&apos;m confident, if given the chance, that I can be a beneficial and long-term asset for your sale team.
+        Driven, dependable, and analytical Software Engineer with 6+ years of enterprise experience transitioning
+         into SaaS Sales. Deeply integrity driven and searching for a company that aligns with my values and delivers consistent
+         and outstanding results for their customers. Able to understand the intricacies of any SaaS solution and transform 
+         the technical details into tangible benefits.
       </div>
     </div>
   );
