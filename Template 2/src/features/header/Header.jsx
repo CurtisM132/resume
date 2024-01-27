@@ -1,5 +1,7 @@
 import React from 'react';
 
+import Contact from '../contact/contact-horizontal/Contact';
+
 import './Header.css';
 
 const Header = () => {
@@ -10,11 +12,14 @@ const Header = () => {
       </div>
 
       <div className="header-tag">
-        Driven, dependable, and analytical Software Engineer with 6+ years of enterprise experience transitioning
-         into SaaS Sales. Deeply integrity driven and searching for a company that aligns with my values and delivers consistent
-         and outstanding results for their customers. Able to understand the intricacies of any SaaS solution and transform 
-         the technical details into tangible benefits.
+        Results driven and empathetic Software Engineer with 6+ years of enterprise-level SaaS experience transitioning
+        into Sales as an SDR. Able to understand the intricacies of any SaaS product and communicate the functionality as
+        tangible benefits. Capable of identifying pain points and gaps in a prospect&apos;s current solution to highlight
+        the need for change. Proactive with learning (50 books read a year for the past 3 years) and persistent with work
+        and hobbies (weightlifting 5x a week for 6+ years).
       </div>
+
+      <Contact />
     </div>
   );
 };

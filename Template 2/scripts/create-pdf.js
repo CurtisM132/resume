@@ -9,7 +9,7 @@ const puppeteer = require('puppeteer');
 	});
 
 	await page.pdf({
-		path: "Curtis Martin - CV (Saas Sales).pdf",
+		path: "Curtis Martin - CV (SaaS Sales).pdf",
 		format: "Letter",
 		printBackground: true
 	});

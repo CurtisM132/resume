@@ -15,7 +15,9 @@
 }
 
 .institution-details {
-    font-size: 0.8rem;
+    margin-top: 3px;
+
+    font-size: 0.88rem;
     font-weight: lighter;
 }
 
@@ -27,5 +29,5 @@
 }
 
 .education-details {
-    font-size: 0.8rem;
+    font-size: 0.72rem;
 }

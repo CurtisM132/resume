@@ -30,7 +30,7 @@ const Contact = () => {
       </div>
       <div className="row-container">
         <FontAwesomeIcon icon="at" className="contact-icon" style={{ marginTop: '2px' }} />
-        <div style={{fontSize: "0.72rem"}}>curtis.martin.work@proton.me</div>
+        <div>curtis.martin.work@gmail.me</div>
       </div>
       <div className="row-container">
         <FontAwesomeIcon icon="link" className="contact-icon" />

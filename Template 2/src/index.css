@@ -12,4 +12,5 @@ body {
 
 .line-break {
   border-style: ridge;
+  margin: 10px 0;
 }

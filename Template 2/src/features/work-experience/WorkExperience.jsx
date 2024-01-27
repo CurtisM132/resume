@@ -16,16 +16,16 @@ const WorkExperience = () => {
       <ContentTitle icon={<FontAwesomeIcon icon="briefcase" />} text="EXPERIENCE" />
 
       <JobEntry
-        jobTitle="Backend Engineer"
+        jobTitle="Software Engineer"
         date="06/2022 - Present"
         employerDetails="Yoti"
       >
         <hr className="line-break" />
 
-        <div className="project-details"  style={{ marginBottom: '35px' }}>
+        <div className="project-details" style={{ marginBottom: '25px' }}>
           <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-between' }}>
             <div>
-              <b>Yoti Sign (eSignature Platform)</b>
+              <b>Yoti Sign</b>
             </div>
             <div className="project-date">
               06/2022 - Present
@@ -34,14 +34,14 @@ const WorkExperience = () => {
 
           <ul>
             <li>
-              Interfacing with and implementing feedback from Fortune 500 companies (e.g., Facebook, Tik Tok, Lloyds Bank)
+              A market-leading eSignature SaaS platform (DocuSign competitor)
             </li>
             <li>
-              Actively developing the project&apos;s fleet of 50 Go(lang) Microservices
+              Built relationships with senior leaders with our Fortune 500 company clients (e.g., Facebook, TikTok,
+              Lloyds Bank) to facilitate regular feedback sessions
             </li>
             <li>
-              Architected and implemented an event storage and aggregation system with CQRS to decrease website query 
-              times and bounce rates by over 10x 
+              Exceeded performance KPIs by 125% for the past 3 quarters
             </li>
           </ul>
         </div>
@@ -67,14 +67,15 @@ const WorkExperience = () => {
 
           <ul>
             <li>
-              Spearheaded end-to-end ownership of multiple system-critical components to produce a one-of-a-kind 
-              Public Key Infrastructure as a Service (PKIaaS) solution
+              A one-of-a-kind Public Key Infrastructure as a Service (PKIaaS) solution for end-to-end (software, personnel, hardware) cyber
+              protection to increase the RAF&apos;s trust of their systems, supply chains, and fighter jets
             </li>
             <li>
-              Demonstrated the system to top RAF, BAE, and Boeing officials to secure further project funding
+              Spearheaded the development of vital features, then demonstrated them to high-ranking RAF, BAE, and Boeing senior officials,
+              to secure further project funding
             </li>
             <li>
-              Additionally worked, for a 3 month period, as the Lead Frontend Engineer
+              Additionally worked, for a 3 month period, as the Lead Frontend Engineer (included mentorship and task delegation for Junior team members)
             </li>
           </ul>
         </div>
@@ -94,11 +95,12 @@ const WorkExperience = () => {
           <ul>
             <li>
               Directly interfaced and collaborated with project stakeholders to architect a solution
-              required for the continued use of 60 active military service Chinook helicopters. Delivered within
-              strict time and budget constraints
+              required for the continued use of 60 active military service Chinook helicopters. Delivered successfully within
+              strict time and budget constraints.
             </li>
             <li>
-              High degree of project responsibility (i.e., Scrum Master, requirement capturing, documentation verifier, etc)
+              High degree of project responsibility (i.e., meeting runner, requirements capturing, military-level
+              test accreditation, etc)
             </li>
           </ul>
         </div>
@@ -117,13 +119,16 @@ const WorkExperience = () => {
 
           <ul>
             <li>
-              Demo-ed and interfaced with the customer every month to develop the system to their needs
+              SaaS solution to simplify the configuration of geographically dispersed military simulators to promote cross-department
+              military collaboration and training efforts
             </li>
             <li>
-              Produced a solution to simplify the configuration and instantiation of cross-functional and geographically dispersed military simulators
+              Lead product demonstrations every month to gain feedback and show our customers how the pain points they previously
+              raised were getting rectified
             </li>
             <li>
-              Demonstrated the system to military personnel at an annual trade show (I/ITSEC)
+              Performed end-to-end system demonstrations for senior military personnel at an annual trade show (I/ITSEC), highlighting the
+              positive impacts the system could have for training their new pilots
             </li>
           </ul>
         </div>
@@ -146,13 +151,15 @@ const WorkExperience = () => {
 
           <ul>
             <li>
-              Developed the greenfield map-centric website that became the defacto system for air force simulation training planning and execution
+              A SaaS product that went on to become the defacto system for air force training, filling a gap in the market dominated,
+              at the time, by hard-to-use and slow legacy products
             </li>
             <li>
-              Demo-ed and interfaced with the customer every month to develop the system to their needs
+              Lead face-to-face product demonstrations every month to highlight new key features of the system to our customer,
+              capturing feedback in the process
             </li>
             <li>
-              Independently researched, designed, and delivered a bespoke GIS system to provide military-grade ground imaging
+              Exceeded performance KPIs by 150% every release cycle (2 weeks) leading to the best performance review in the team
             </li>
           </ul>
         </div>

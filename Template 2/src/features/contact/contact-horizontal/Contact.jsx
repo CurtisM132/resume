@@ -15,10 +15,10 @@ const Contact = () => {
   library.add(faLink);
 
   return (
-    <div className="contact-container">
+    <div className="contact-container-horizontal">
       <div className="row-container">
         <FontAwesomeIcon icon="home" className="contact-icon" />
-        <div>UK / Remote</div>
+        <div>Reading, UK</div>
       </div>
       <div className="row-container">
         <FontAwesomeIcon icon="phone-alt" className="contact-icon" />
@@ -26,11 +26,12 @@ const Contact = () => {
       </div>
       <div className="row-container">
         <FontAwesomeIcon icon="at" className="contact-icon" style={{ marginTop: '2px' }} />
-        <div style={{fontSize: "0.72rem"}}>curtis.martin.work@proton.me</div>
+        <div style={{fontSize: "0.72rem"}}>curtis.martin.work@gmail.me</div>
       </div>
       <div className="row-container">
         <FontAwesomeIcon icon="link" className="contact-icon" />
-        <div style={{fontSize: "0.72rem"}}>www.linkedin.com/in/curtismartin3</div>
+        {/* {/* <div style={{fontSize: "0.72rem"}}>www.linkedin.com/in/curtismartin3</div> */}
+        <a style={{fontSize: "0.72rem"}} href="https://linktr.ee/curtis__martin">Socials</a>
       </div>
     </div>
   );
