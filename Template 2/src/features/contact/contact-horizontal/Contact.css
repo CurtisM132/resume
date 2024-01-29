@@ -1,9 +1,11 @@
-.contact-container {
+.contact-container-horizontal {
     width: 100%;
 
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+
+    margin-top: 8px;
 }
 
 .row-container {

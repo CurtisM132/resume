@@ -13,45 +13,60 @@ const WorkExperience = () => {
 
   return (
     <>
-      <ContentTitle icon={<FontAwesomeIcon icon="briefcase" />} text="WORK EXPERIENCE" />
+      <ContentTitle icon={<FontAwesomeIcon icon="briefcase" />} text="EXPERIENCE" />
+
+      <JobEntry
+        jobTitle="Business Developer"
+        date="12/2023 - Present"
+        employerDetails="WANDR"
+      >
+        <div className="project-details">
+          <ul>
+            <li>Proactively identify, cultivate, and maintain relationships with clients in the B2B SaaS market</li>
+            <li>Educate clients on UX design and articulate the value proposition of WANDR&apos;s services</li>
+            <li>Execute outbound sales strategies (cold calling, email campaigns, and LinkedIn)</li>
+            <li>Source new leads using tools (Sales Nav, Apollo) and ICPs</li>
+            <li>Track lead progress in CRM (Pipedrive) and capture metrics to guide outbound strategies</li>
+          </ul>
+        </div>
+      </JobEntry>
+
+      <hr className="line-break" />
 
       <JobEntry
         jobTitle="Backend Engineer"
-        date="06/2022 - Present"
+        date="06/2022 - 12/2023"
         employerDetails="Yoti"
       >
-        <hr className="line-break" />
-
-        <div className="project-details"  style={{ marginBottom: '35px' }}>
+        <div className="project-details">
           <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-between' }}>
             <div>
-              <b>Yoti Sign (eSignature Platform)</b>
+              <b>Yoti Sign (eSignature SaaS / DocuSign competitor)</b>
             </div>
             <div className="project-date">
-              06/2022 - Present
+              06/2022 - 12/2023
             </div>
           </div>
 
           <ul>
             <li>
-              Actively developing the project&apos;s fleet of Go(lang) 50 Microservices
+              Built relationships with our Fortune 500 clients (e.g., Facebook, TikTok, Lloyds Bank) to
+              facilitate regular feedback sessions
             </li>
             <li>
-              Architected and implemented an event storage and aggregation system with CQRS to decrease website query 
-              times and bounce rates by over 10x 
+              Exceeded performance KPIs by 125% for the past 3 quarters
             </li>
           </ul>
         </div>
-
       </JobEntry>
+
+      <hr className="line-break" />
 
       <JobEntry
         jobTitle="Software Engineer"
         date="09/2017 - 06/2022"
         employerDetails="Thales"
       >
-        <hr className="line-break" />
-
         <div className="project-details">
           <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-between' }}>
             <div>
@@ -64,19 +79,16 @@ const WorkExperience = () => {
 
           <ul>
             <li>
-              Spearheaded end-to-end ownership of multiple system-critical Go(lang) microservices
+              One-of-a-kind PKIaaS solution for end-to-end (software, hardware, personnel) air force cyber protection
             </li>
             <li>
-              Architected and implemented a custom NFC Microservice, then personally presented the functionality to top RAF, BAE, and 
-              Boeing officials to secure further project funding
+              Spearheaded the development and demonstrated to high-ranking RAF, BAE, and Boeing senior officials to secure project funding
             </li>
             <li>
-              Additionally worked, for a 3 month period, as the Lead Frontend Engineer
+              Lead Frontend Engineer (for 3 months) (included mentorship and task delegation for Junior colleagues)
             </li>
           </ul>
         </div>
-
-        <hr className="line-break" />
 
         <div className="project-details">
           <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-between' }}>
@@ -90,17 +102,14 @@ const WorkExperience = () => {
 
           <ul>
             <li>
-              Directly interfaced and collaborated with project stakeholders to architect a maintainable solution
-              required for the continued use of 60 active military service Chinook helicopters. Delivered within
-              strict time and budget constraints
+              Directly collaborated with stakeholders to architect a solution required for the continued use of 60 active military
+              Chinook helicopters. Delivered successfully within strict time and budget constraints.
             </li>
             <li>
-              High degree of project responsibility (i.e., Scrum Master, requirement capturing, etc)
+              Senior-level responsibilities (meeting runner, requirements capturing, military-grade test accreditation, etc)
             </li>
           </ul>
         </div>
-
-        <hr className="line-break" />
 
         <div className="project-details">
           <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-between' }}>
@@ -114,16 +123,17 @@ const WorkExperience = () => {
 
           <ul>
             <li>
-              Interfaced directly with the customer to develop multiple innovative Angular SPAs to simplify the configuration 
-              and instantiation of military simulators
+              Simplifies the configuration of geographically dispersed military simulators to promote cross-department
+              military training
             </li>
             <li>
-              Helped develop Java Microservices deployed using Docker with a RabbitMQ broker
+              Led customer product demonstrations and feedback sessions every month
+            </li>
+            <li>
+              Led end-to-end system demonstrations for senior military personnel at an annual trade show (I/ITSEC)
             </li>
           </ul>
         </div>
-
-        <hr className="line-break" />
 
         <div className="project-details">
           <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-between', alignItems: 'flex-end' }}>
@@ -131,8 +141,6 @@ const WorkExperience = () => {
               <b>Facilities for Air Combat Training (FACT)</b>
             </div>
             <div className="project-date">
-              On a Consultant Basis
-              <br />
               01/2020 - 06/2020
               <br />
               09/2017 - 02/2019
@@ -141,13 +149,14 @@ const WorkExperience = () => {
 
           <ul>
             <li>
-              Developed the innovative map-centric (OpenLayers/Cesium) Angular website that became the defacto system for air force training simulation planning
+              Defacto SaaS platform for air force training, filling a gap in the market dominated by hard-to-use
+              and slow legacy products
             </li>
             <li>
-              Helped develop, in coordination with 3 other teams, the backend C++ server
+              Lead face-to-face customer product demonstrations every month
             </li>
             <li>
-              Independently researched, designed, and delivered a bespoke GIS map solution to provide the entire system with military grade ground imaging
+              Exceeded performance KPIs by 150% every release cycle (2 weeks)
             </li>
           </ul>
         </div>

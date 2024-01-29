@@ -1,5 +1,7 @@
 import React from 'react';
 
+import Contact from '../contact/contact-horizontal/Contact';
+
 import './Header.css';
 
 const Header = () => {
@@ -10,10 +12,13 @@ const Header = () => {
       </div>
 
       <div className="header-tag">
-        Driven, dependable, and empathetic Software Engineer with over 6 years of enterprise experience transitioning
-         into remote sales. Deeply integrity driven and searching for a company that aligns with my values and delivers consistent
-         and outstanding fulfilment. I&apos;m confident, if given the chance, that I can be a beneficial and long-term asset for your sale team.
+        Driven, dependable, and empathetic individual with over 6 years of enterprise software engineering experience recently transitioned into sales.
+        Currently working as a Business Developer for a UX Design agency, but seeking a long-term position with a company that better aligns with my 
+        values and offers internal growth opportunities with excellent fulfilment. Proactive learner (50 books read a year for 3 years) and persistent
+        hobbyist (weightlifting 5x a week for 6+ years).
       </div>
+
+      <Contact />
     </div>
   );
 };

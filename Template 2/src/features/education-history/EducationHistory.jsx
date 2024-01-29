@@ -16,7 +16,7 @@ const EducationHistory = () => {
       <ContentTitle icon={<FontAwesomeIcon icon="user-graduate" />} text="EDUCATION" />
 
       <EducationEntry
-        courseTitle="Undeniable Closer Mentorship/Mastermind"
+        courseTitle="Undeniable Closer Mentorship (Sales)"
         date="06/2023 - Present"
         institutionDetails="JD Daley"
       >

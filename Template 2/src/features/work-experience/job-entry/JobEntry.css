@@ -1,7 +1,9 @@
 .container {
     display: flex;
     flex-direction: row;
-    justify-content: space-between
+    justify-content: space-between;
+
+    margin-bottom: 8px;
 }
 
 .job-title {
@@ -26,5 +28,5 @@
 }
 
 hr {
-    margin: 12px 0;
+    margin: 15px 0;
 }

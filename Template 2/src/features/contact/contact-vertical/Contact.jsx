@@ -22,7 +22,7 @@ const Contact = () => {
 
       <div className="row-container">
         <FontAwesomeIcon icon="home" className="contact-icon" />
-        <div>UK / Remote</div>
+        <div>Remote / UK</div>
       </div>
       <div className="row-container">
         <FontAwesomeIcon icon="phone-alt" className="contact-icon" />
