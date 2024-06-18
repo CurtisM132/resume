@@ -22,11 +22,12 @@ const WorkExperience = () => {
       >
         <div className="project-details">
           <ul>
-            <li>Proactively identify, cultivate, and maintain relationships with clients in the B2B SaaS market</li>
-            <li>Educate clients on UX design and articulate the value proposition of WANDR&apos;s services</li>
-            <li>Execute outbound sales strategies (cold calling, email campaigns, and LinkedIn)</li>
-            <li>Source new leads using tools (Sales Nav, Apollo) and ICPs</li>
-            <li>Track lead progress in CRM (Pipedrive) and capture metrics to guide outbound strategies</li>
+            <li>Proactively build relationships in the B2B SaaS market through outbound strategies (email, LinkedIn, and content creation)</li>
+            <li>Utilize LinkedIn Sales Navigator, Apollo.io, and Crunchbase to uncover new companies to target</li>
+            <li>Develop pipelines with Clay to find applicable leads, enrich them, and generate personalised insights and compliments using AI</li>
+            <li>Wrote and continue to improve (via metrics analysis) segmented multi-channel Lemlist sequences for lead outreach</li>
+            <li>Track progress in Pipedrive CRM</li>
+            <li>Generated $294,000 in additional revenue (no quota)</li>
           </ul>
         </div>
       </JobEntry>
@@ -50,11 +51,10 @@ const WorkExperience = () => {
 
           <ul>
             <li>
-              Built relationships with our Fortune 500 clients (e.g., Facebook, TikTok, Lloyds Bank) to
-              facilitate regular feedback sessions
+              Developed partnerships with Fortune 500 clients such as Facebook, TikTok, and Lloyds Bank for regular feedback sessions
             </li>
             <li>
-              Exceeded performance KPIs by 125% for the past 3 quarters
+              Exceeded performance KPIs by 125% for the last 3 quarters
             </li>
           </ul>
         </div>
@@ -79,13 +79,13 @@ const WorkExperience = () => {
 
           <ul>
             <li>
-              One-of-a-kind PKIaaS solution for end-to-end (software, hardware, personnel) air force cyber protection
+              Developed a unique PKIaaS solution for comprehensive Air Force cyber protection
             </li>
             <li>
-              Spearheaded the development and demonstrated to high-ranking RAF, BAE, and Boeing senior officials to secure project funding
+              Conducted project demonstrations for Air Force, BAE, and Boeing senior officials to secure funding
             </li>
             <li>
-              Lead Frontend Engineer (for 3 months) (included mentorship and task delegation for Junior colleagues)
+              Assumed role of Lead Frontend Engineer (for 4 months), providing mentorship and delegating tasks to Junior colleagues
             </li>
           </ul>
         </div>
@@ -102,8 +102,11 @@ const WorkExperience = () => {
 
           <ul>
             <li>
-              Directly collaborated with stakeholders to architect a solution required for the continued use of 60 active military
-              Chinook helicopters. Delivered successfully within strict time and budget constraints.
+              Collaborated with stakeholders to architect a solution required for the continued use of 60 active military
+              Chinook helicopters
+            </li>
+            <li>
+              Successfully delivered project on time and within budget constraints.
             </li>
             <li>
               Senior-level responsibilities (meeting runner, requirements capturing, military-grade test accreditation, etc)
@@ -127,7 +130,7 @@ const WorkExperience = () => {
               military training
             </li>
             <li>
-              Led customer product demonstrations and feedback sessions every month
+              Conducted customer product demonstrations and feedback sessions every month
             </li>
             <li>
               Led end-to-end system demonstrations for senior military personnel at an annual trade show (I/ITSEC)
@@ -149,14 +152,13 @@ const WorkExperience = () => {
 
           <ul>
             <li>
-              Defacto SaaS platform for air force training, filling a gap in the market dominated by hard-to-use
-              and slow legacy products
+              Developed a leading SaaS platform for Air Force training, addressing market needs overshadowed by complex legacy systems
             </li>
             <li>
               Lead face-to-face customer product demonstrations every month
             </li>
             <li>
-              Exceeded performance KPIs by 150% every release cycle (2 weeks)
+              Exceeded performance KPIs by 150% in each bi-weekly release cycle throughout the project duration
             </li>
           </ul>
         </div>

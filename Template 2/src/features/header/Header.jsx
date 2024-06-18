@@ -12,10 +12,9 @@ const Header = () => {
       </div>
 
       <div className="header-tag">
-        Driven, dependable, and empathetic individual with over 6 years of enterprise software engineering experience recently transitioned into sales.
-        Currently working as a Business Developer for a UX Design agency, but seeking a long-term position with a company that better aligns with my 
-        values and offers internal growth opportunities with excellent fulfilment. Proactive learner (50 books read a year for 3 years) and persistent
-        hobbyist (weightlifting 5x a week for 6+ years).
+        Driven, dependable, and empathetic individual with 6 months of sales experience and 6+ years of enterprise software engineering experience.
+        Seeking a long-term position that aligns with my values and offers internal growth opportunities. Proactive learner 
+        (50 books read a year for 3 years) and persistent hobbyist (weightlifting 4x a week for 6+ years).
       </div>
 
       <Contact />
