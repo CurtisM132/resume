@@ -11,10 +11,10 @@ const Header = () => {
         Curtis Martin
       </div>
 
-      <div className="header-tag">
+      {/* <div className="header-tag">
         Driven, dependable, and empathetic individual with 6 months of sales experience and 6+ years of enterprise software engineering experience.
         Seeking a long-term sales position that aligns with my values and offers internal growth opportunities.
-      </div>
+      </div> */}
 
       <Contact />
     </div>
