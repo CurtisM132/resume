@@ -7,7 +7,7 @@
 }
 
 .job-title {
-    font-size: 1rem;
+    font-size: 0.9rem;
     font-weight: bold;
 }
 
@@ -28,5 +28,5 @@
 }
 
 hr {
-    margin: 15px 0;
+    margin: 10px 0;
 }
