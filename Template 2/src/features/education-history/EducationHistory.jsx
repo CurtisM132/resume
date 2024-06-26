@@ -17,7 +17,7 @@ const EducationHistory = () => {
 
       <EducationEntry
         courseTitle="BSc in Digital and Technology Solutions (Computer Science)"
-        date="09/2019 - 06/2023"
+        date="06/2023"
         institutionDetails="University of Warwick"
       >
         <div className="education-details">

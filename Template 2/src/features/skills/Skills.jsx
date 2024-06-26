@@ -11,24 +11,25 @@ const PROGRAMMING_LANGUAGES = [
   'Go(lang)',
   'Typescript',
   'Javascript',
-  'HTML / CSS',
+  'HTML + CSS',
   'Python',
-  'C',
 ];
 
 const FRAMEWORKS = [
+  'Gin',
   'React',
   'Angular',
 ];
 
-const SOFTWARE_AND_TOOLS = [
+const TECH_AND_TOOLS = [
   'Docker',
-  'Kubernetes',
+  'Kubernetes / K8s',
   'PostgreSQL',
-  'Git',
+  'Protobuf',
+  'NSQ (Kafka Alternative)',
   'Prometheus',
   'Grafana',
-  'SonarCube',
+  'Git',
 ];
 
 const OPERATING_SYSTEMS = [
@@ -49,8 +50,7 @@ const OTHER = [
   'Kanban',
   'REST',
   'gRPC',
-  'Protobuf',
-  'Pub / Sub (MQTT)',
+  'Pub / Sub (e.g., MQTT)',
 ];
 
 const Skills = () => {
@@ -86,10 +86,10 @@ const Skills = () => {
 
       <div className="skill-container">
         <div className="skill-subtitle">
-          Software &#38; Tools
+          Tech &#38; Tools
         </div>
 
-        {SOFTWARE_AND_TOOLS.map((i) => (
+        {TECH_AND_TOOLS.map((i) => (
           <div className="skill-text" key={i}>
             {i}
           </div>
